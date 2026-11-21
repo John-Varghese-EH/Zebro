@@ -1,0 +1,28 @@
+@media print {
+  body {
+    background: #FFFFFF !important;
+    color: #0B1829 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-page {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 10mm !important;
+    page-break-after: always;
+  }
+
+  table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+  }
+
+  th, td {
+    border-bottom: 1px solid #C3CFDB !important;
+    padding: 6px 8px !important;
+  }
+}

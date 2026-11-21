@@ -1,0 +1,17 @@
+[
+  { "id": "nisar", "name": "NISAR", "noradId": 65053,
+    "role": "L- and S-band SAR: ground deformation, biomass, all-weather flood mapping",
+    "swathKm": 240, "wetMassKg": 2400, "propellantKg": 185, "radiusM": 3.0, "verified": false },
+  { "id": "eos04", "name": "EOS-04 (RISAT-1A)", "noradId": 51656,
+    "role": "C-band SAR: agriculture, soil moisture, flood hydrology",
+    "swathKm": 225, "wetMassKg": 1710, "propellantKg": 92, "radiusM": 2.0, "verified": false },
+  { "id": "eos06", "name": "EOS-06 (Oceansat-3)", "noradId": 54361,
+    "role": "Ocean colour and wind vectors, coastal cyclone monitoring",
+    "swathKm": 1400, "wetMassKg": 1117, "propellantKg": 68, "radiusM": 2.0, "verified": false },
+  { "id": "resourcesat2a", "name": "RESOURCESAT-2A", "noradId": 41877,
+    "role": "Crop classification, forest cover, water bodies",
+    "swathKm": 141, "wetMassKg": 1235, "propellantKg": 54, "radiusM": 2.0, "verified": false },
+  { "id": "cartosat3", "name": "CARTOSAT-3", "noradId": 44804,
+    "role": "Sub-metre mapping, terrain and watershed modelling",
+    "swathKm": 16, "wetMassKg": 1625, "propellantKg": 78, "radiusM": 2.0, "verified": false }
+]

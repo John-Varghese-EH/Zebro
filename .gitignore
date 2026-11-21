@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Python Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Production Builds
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Local Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Reference Repositories
+re/
+

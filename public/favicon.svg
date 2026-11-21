@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 32 32"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="favicon.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="19.34375"
+     inkscape:cx="15.974152"
+     inkscape:cy="16"
+     inkscape:window-width="1536"
+     inkscape:window-height="832"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <rect
+     width="32"
+     height="32"
+     rx="4"
+     fill="#0B1829"
+     id="rect1" />
+  <circle
+     cx="16"
+     cy="16"
+     r="10"
+     stroke="#26435F"
+     stroke-width="1.5"
+     id="circle1" />
+  <ellipse
+     stroke="#8FC4E8"
+     stroke-width="1.5"
+     transform="rotate(-30 16 16)"
+     id="ellipse1"
+     ry="5"
+     rx="12"
+     cy="16"
+     cx="16" />
+  <ellipse
+     fill="#f2a33a"
+     id="circle2"
+     cy="21.19702"
+     cx="15.281109"
+     rx="2.2"
+     ry="1.825941"
+     transform="rotate(-27.596106)" />
+  <circle
+     cx="16"
+     cy="16"
+     r="3.5"
+     fill="#8FC4E8"
+     id="circle3" />
+</svg>

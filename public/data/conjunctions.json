@@ -1,0 +1,6718 @@
+{
+  "generated_utc": "2026-11-21T15:51:11Z",
+  "window_hours": 72,
+  "assumptions": {
+    "sigma_base_m": 1000.0,
+    "sigma_per_day_m": 500.0
+  },
+  "events": [
+    {
+      "id": "41877-30920-20261124T022547",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30920,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T02:25:47.806Z",
+      "miss_km": 0.479,
+      "rel_speed_kms": 9.05,
+      "class": "alert",
+      "pc": 1.9576051666529095e-06,
+      "sigma_m": 1215.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.43
+      }
+    },
+    {
+      "id": "41877-30509-20261122T021224",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30509,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T02:12:24.340Z",
+      "miss_km": 3.816,
+      "rel_speed_kms": 14.01,
+      "class": "alert",
+      "pc": 1.0326366486180523e-07,
+      "sigma_m": 1809.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 1.62
+      }
+    },
+    {
+      "id": "41877-31633-20261124T091443",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31633,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T09:14:43.798Z",
+      "miss_km": 4.322,
+      "rel_speed_kms": 7.97,
+      "class": "alert",
+      "pc": 8.161281681086153e-08,
+      "sigma_m": 5210.1,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 8.42
+      }
+    },
+    {
+      "id": "65053-31726-20261121T185441",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31726,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T18:54:41.301Z",
+      "miss_km": 8.23,
+      "rel_speed_kms": 14.748,
+      "class": "watch",
+      "pc": 5.0001795271056457e-08,
+      "sigma_m": 4159.4,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 6.32
+      }
+    },
+    {
+      "id": "65053-25504-20261122T132046",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "SCD 2",
+        "norad": 25504,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-22T13:20:46.210Z",
+      "miss_km": 4.238,
+      "rel_speed_kms": 9.153,
+      "class": "alert",
+      "pc": 4.9341968269996876e-08,
+      "sigma_m": 1348.6,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.7
+      }
+    },
+    {
+      "id": "54361-37973-20261121T182044",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 37973,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T18:20:44.944Z",
+      "miss_km": 6.123,
+      "rel_speed_kms": 5.579,
+      "class": "watch",
+      "pc": 2.6829168991667432e-08,
+      "sigma_m": 2548.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 3.1
+      }
+    },
+    {
+      "id": "41877-36668-20261124T055205",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 36668,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T05:52:05.698Z",
+      "miss_km": 7.745,
+      "rel_speed_kms": 8.265,
+      "class": "watch",
+      "pc": 1.6232135182567628e-08,
+      "sigma_m": 3196.1,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 4.39
+      }
+    },
+    {
+      "id": "54361-37305-20261122T214608",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 37305,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T21:46:08.327Z",
+      "miss_km": 10.36,
+      "rel_speed_kms": 7.279,
+      "class": "watch",
+      "pc": 1.503777463317891e-08,
+      "sigma_m": 5064.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 8.13
+      }
+    },
+    {
+      "id": "65053-47102-20261124T145220",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 47102,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T14:52:20.768Z",
+      "miss_km": 13.401,
+      "rel_speed_kms": 11.48,
+      "class": "watch",
+      "pc": 1.1797084547257333e-08,
+      "sigma_m": 5687.7,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 9.38
+      }
+    },
+    {
+      "id": "54361-36528-20261122T021356",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 36528,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T02:13:56.171Z",
+      "miss_km": 12.913,
+      "rel_speed_kms": 14.949,
+      "class": "watch",
+      "pc": 6.79956188797618e-09,
+      "sigma_m": 5556.1,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 9.11
+      }
+    },
+    {
+      "id": "54361-31660-20261123T193012",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31660,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T19:30:12.053Z",
+      "miss_km": 6.765,
+      "rel_speed_kms": 11.239,
+      "class": "watch",
+      "pc": 1.96138061349028e-09,
+      "sigma_m": 1946.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.89
+      }
+    },
+    {
+      "id": "54361-38492-20261124T152322",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 38492,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T15:23:22.836Z",
+      "miss_km": 14.768,
+      "rel_speed_kms": 5.298,
+      "class": "watch",
+      "pc": 1.334691793281183e-09,
+      "sigma_m": 4873.6,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 7.75
+      }
+    },
+    {
+      "id": "41877-29735-20261124T081349",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29735,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T08:13:49.750Z",
+      "miss_km": 4.913,
+      "rel_speed_kms": 14.452,
+      "class": "alert",
+      "pc": 1.1898518139406731e-09,
+      "sigma_m": 1278.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.56
+      }
+    },
+    {
+      "id": "65053-39586-20261124T150642",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 39586,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T15:06:42.295Z",
+      "miss_km": 14.741,
+      "rel_speed_kms": 14.914,
+      "class": "watch",
+      "pc": 6.693396010519585e-10,
+      "sigma_m": 4163.0,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 6.33
+      }
+    },
+    {
+      "id": "65053-31209-20261122T121024",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31209,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T12:10:24.783Z",
+      "miss_km": 11.819,
+      "rel_speed_kms": 8.335,
+      "class": "watch",
+      "pc": 3.6725935294235845e-10,
+      "sigma_m": 3054.0,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 4.11
+      }
+    },
+    {
+      "id": "65053-37437-20261124T062407",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 37437,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T06:24:07.665Z",
+      "miss_km": 13.354,
+      "rel_speed_kms": 14.645,
+      "class": "watch",
+      "pc": 1.129129164387151e-10,
+      "sigma_m": 3228.0,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 4.46
+      }
+    },
+    {
+      "id": "54361-30093-20261123T173736",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30093,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T17:37:36.454Z",
+      "miss_km": 5.706,
+      "rel_speed_kms": 14.512,
+      "class": "watch",
+      "pc": 4.004126250483103e-11,
+      "sigma_m": 1224.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "54361-34302-20261122T201802",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34302,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T20:18:02.948Z",
+      "miss_km": 5.951,
+      "rel_speed_kms": 14.383,
+      "class": "watch",
+      "pc": 2.4403981428476615e-11,
+      "sigma_m": 1251.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.5
+      }
+    },
+    {
+      "id": "65053-31627-20261122T171354",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31627,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T17:13:54.300Z",
+      "miss_km": 17.706,
+      "rel_speed_kms": 13.728,
+      "class": "watch",
+      "pc": 1.17407154642304e-11,
+      "sigma_m": 3871.7,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 5.74
+      }
+    },
+    {
+      "id": "65053-36439-20261123T054427",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 36439,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T05:44:27.559Z",
+      "miss_km": 11.147,
+      "rel_speed_kms": 7.238,
+      "class": "watch",
+      "pc": 9.06940936576905e-12,
+      "sigma_m": 2298.6,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 2.6
+      }
+    },
+    {
+      "id": "65053-31513-20261124T122715",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31513,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T12:27:15.327Z",
+      "miss_km": 23.344,
+      "rel_speed_kms": 8.975,
+      "class": "watch",
+      "pc": 5.886078847655828e-12,
+      "sigma_m": 5067.6,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 8.14
+      }
+    },
+    {
+      "id": "41877-31555-20261124T082451",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31555,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T08:24:51.244Z",
+      "miss_km": 19.186,
+      "rel_speed_kms": 10.048,
+      "class": "watch",
+      "pc": 5.7790008630728464e-12,
+      "sigma_m": 4223.1,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 6.45
+      }
+    },
+    {
+      "id": "65053-31497-20261123T011805",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31497,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T01:18:05.603Z",
+      "miss_km": 14.214,
+      "rel_speed_kms": 14.467,
+      "class": "watch",
+      "pc": 5.439393064431352e-12,
+      "sigma_m": 2927.8,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 3.86
+      }
+    },
+    {
+      "id": "41877-31163-20261122T070457",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31163,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T07:04:57.801Z",
+      "miss_km": 12.043,
+      "rel_speed_kms": 14.657,
+      "class": "watch",
+      "pc": 1.4292018876631588e-12,
+      "sigma_m": 2373.7,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 2.75
+      }
+    },
+    {
+      "id": "54361-30453-20261123T111023",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30453,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T11:10:23.811Z",
+      "miss_km": 6.833,
+      "rel_speed_kms": 2.309,
+      "class": "watch",
+      "pc": 5.579129773918238e-13,
+      "sigma_m": 1243.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.49
+      }
+    },
+    {
+      "id": "51656-33412-20261122T143741",
+      "primary": {
+        "name": "EOS-4",
+        "norad": 51656
+      },
+      "secondary": {
+        "name": "COSMO-SKYMED 3",
+        "norad": 33412,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-22T14:37:41.053Z",
+      "miss_km": 6.863,
+      "rel_speed_kms": 14.296,
+      "class": "watch",
+      "pc": 4.087525966973065e-13,
+      "sigma_m": 1197.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.39
+      }
+    },
+    {
+      "id": "65053-31226-20261124T103238",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31226,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T10:32:38.022Z",
+      "miss_km": 21.008,
+      "rel_speed_kms": 14.659,
+      "class": "watch",
+      "pc": 3.635456184016793e-13,
+      "sigma_m": 3988.2,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 5.98
+      }
+    },
+    {
+      "id": "51656-37084-20261122T142623",
+      "primary": {
+        "name": "EOS-4",
+        "norad": 51656
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 37084,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T14:26:23.669Z",
+      "miss_km": 9.162,
+      "rel_speed_kms": 14.821,
+      "class": "watch",
+      "pc": 3.221870811218069e-13,
+      "sigma_m": 1669.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.34
+      }
+    },
+    {
+      "id": "54361-31178-20261123T102135",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31178,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T10:21:35.007Z",
+      "miss_km": 17.708,
+      "rel_speed_kms": 7.538,
+      "class": "watch",
+      "pc": 3.2006159420332573e-13,
+      "sigma_m": 3388.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 4.78
+      }
+    },
+    {
+      "id": "65053-34969-20261121T210025",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34969,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T21:00:25.557Z",
+      "miss_km": 24.755,
+      "rel_speed_kms": 5.618,
+      "class": "watch",
+      "pc": 2.9458562332732595e-13,
+      "sigma_m": 4721.2,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 7.44
+      }
+    },
+    {
+      "id": "65053-32357-20261124T133013",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 32357,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T13:30:13.491Z",
+      "miss_km": 6.867,
+      "rel_speed_kms": 14.825,
+      "class": "watch",
+      "pc": 2.7433919398215564e-13,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.38
+      }
+    },
+    {
+      "id": "41877-37278-20261122T114431",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 37278,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T11:44:31.685Z",
+      "miss_km": 12.723,
+      "rel_speed_kms": 6.691,
+      "class": "watch",
+      "pc": 1.2856174959471743e-13,
+      "sigma_m": 2296.9,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 2.59
+      }
+    },
+    {
+      "id": "41877-30300-20261121T170112",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30300,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T17:01:12.110Z",
+      "miss_km": 10.21,
+      "rel_speed_kms": 1.834,
+      "class": "watch",
+      "pc": 3.058723850629697e-14,
+      "sigma_m": 1733.7,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 1.47
+      }
+    },
+    {
+      "id": "65053-34990-20261123T023901",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34990,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T02:39:01.685Z",
+      "miss_km": 7.337,
+      "rel_speed_kms": 14.931,
+      "class": "watch",
+      "pc": 2.6201252632649987e-14,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "51656-29228-20261123T225606",
+      "primary": {
+        "name": "EOS-4",
+        "norad": 51656
+      },
+      "secondary": {
+        "name": "RESURS-DK 1",
+        "norad": 29228,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-23T22:56:06.492Z",
+      "miss_km": 7.732,
+      "rel_speed_kms": 6.806,
+      "class": "watch",
+      "pc": 1.3625524616914396e-14,
+      "sigma_m": 1229.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.46
+      }
+    },
+    {
+      "id": "65053-32243-20261123T065745",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 32243,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T06:57:45.317Z",
+      "miss_km": 24.191,
+      "rel_speed_kms": 14.833,
+      "class": "watch",
+      "pc": 1.114626145243563e-14,
+      "sigma_m": 4113.1,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 6.23
+      }
+    },
+    {
+      "id": "41877-31182-20261121T202651",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31182,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T20:26:51.197Z",
+      "miss_km": 8.96,
+      "rel_speed_kms": 10.113,
+      "class": "watch",
+      "pc": 7.206847482834759e-15,
+      "sigma_m": 1447.9,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.9
+      }
+    },
+    {
+      "id": "41877-31475-20261122T224849",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31475,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T22:48:49.513Z",
+      "miss_km": 21.244,
+      "rel_speed_kms": 14.518,
+      "class": "watch",
+      "pc": 6.070531759446934e-15,
+      "sigma_m": 3590.6,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 5.18
+      }
+    },
+    {
+      "id": "65053-37998-20261124T150021",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 37998,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T15:00:21.963Z",
+      "miss_km": 9.476,
+      "rel_speed_kms": 14.554,
+      "class": "watch",
+      "pc": 5.31704313908242e-15,
+      "sigma_m": 1496.1,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.99
+      }
+    },
+    {
+      "id": "65053-31497-20261123T025804",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31497,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T02:58:04.634Z",
+      "miss_km": 18.082,
+      "rel_speed_kms": 14.467,
+      "class": "watch",
+      "pc": 3.7245136154540474e-15,
+      "sigma_m": 2927.8,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 3.86
+      }
+    },
+    {
+      "id": "54361-33688-20261123T083851",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 33688,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T08:38:51.296Z",
+      "miss_km": 24.784,
+      "rel_speed_kms": 5.941,
+      "class": "watch",
+      "pc": 3.4798342058928257e-15,
+      "sigma_m": 4157.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 6.32
+      }
+    },
+    {
+      "id": "54361-33764-20261123T124346",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33764,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T12:43:46.311Z",
+      "miss_km": 8.194,
+      "rel_speed_kms": 8.918,
+      "class": "watch",
+      "pc": 1.674584793253888e-15,
+      "sigma_m": 1268.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.54
+      }
+    },
+    {
+      "id": "51656-30888-20261122T063402",
+      "primary": {
+        "name": "EOS-4",
+        "norad": 51656
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30888,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T06:34:02.097Z",
+      "miss_km": 10.447,
+      "rel_speed_kms": 6.775,
+      "class": "watch",
+      "pc": 1.5717174357201104e-15,
+      "sigma_m": 1634.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.27
+      }
+    },
+    {
+      "id": "65053-34672-20261121T233544",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34672,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T23:35:44.510Z",
+      "miss_km": 15.341,
+      "rel_speed_kms": 12.926,
+      "class": "watch",
+      "pc": 8.387061485161209e-16,
+      "sigma_m": 2367.8,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 2.74
+      }
+    },
+    {
+      "id": "41877-38199-20261123T003343",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 38199,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T00:33:43.147Z",
+      "miss_km": 10.683,
+      "rel_speed_kms": 14.951,
+      "class": "watch",
+      "pc": 7.183653968407055e-16,
+      "sigma_m": 1640.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 1.28
+      }
+    },
+    {
+      "id": "41877-31073-20261124T081048",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31073,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T08:10:48.977Z",
+      "miss_km": 8.703,
+      "rel_speed_kms": 14.473,
+      "class": "watch",
+      "pc": 2.1461662908425887e-16,
+      "sigma_m": 1286.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.57
+      }
+    },
+    {
+      "id": "41877-32161-20261123T134657",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 32161,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T13:46:57.702Z",
+      "miss_km": 10.588,
+      "rel_speed_kms": 3.439,
+      "class": "watch",
+      "pc": 9.734925059641275e-17,
+      "sigma_m": 1550.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 1.1
+      }
+    },
+    {
+      "id": "54361-39591-20261123T042710",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 39591,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T04:27:10.235Z",
+      "miss_km": 21.119,
+      "rel_speed_kms": 11.415,
+      "class": "watch",
+      "pc": 7.606548459450515e-17,
+      "sigma_m": 3174.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 4.35
+      }
+    },
+    {
+      "id": "54361-33966-20261121T210344",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 33966,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T21:03:44.214Z",
+      "miss_km": 8.299,
+      "rel_speed_kms": 14.786,
+      "class": "watch",
+      "pc": 7.509698678496702e-17,
+      "sigma_m": 1195.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "41877-30809-20261122T040001",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30809,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T04:00:01.156Z",
+      "miss_km": 8.405,
+      "rel_speed_kms": 3.234,
+      "class": "watch",
+      "pc": 7.189252872038856e-17,
+      "sigma_m": 1210.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.42
+      }
+    },
+    {
+      "id": "54361-34963-20261122T175044",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34963,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T17:50:44.646Z",
+      "miss_km": 21.67,
+      "rel_speed_kms": 7.408,
+      "class": "watch",
+      "pc": 4.530609865821984e-17,
+      "sigma_m": 3222.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 4.44
+      }
+    },
+    {
+      "id": "41877-30920-20261123T120418",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30920,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T12:04:18.633Z",
+      "miss_km": 8.615,
+      "rel_speed_kms": 9.064,
+      "class": "watch",
+      "pc": 2.6122438446668318e-17,
+      "sigma_m": 1215.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.43
+      }
+    },
+    {
+      "id": "54361-31826-20261122T070005",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31826,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T07:00:05.818Z",
+      "miss_km": 10.149,
+      "rel_speed_kms": 12.01,
+      "class": "watch",
+      "pc": 2.280001757385292e-17,
+      "sigma_m": 1437.6,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.88
+      }
+    },
+    {
+      "id": "54361-39777-20261123T160536",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 39777,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T16:05:36.427Z",
+      "miss_km": 11.442,
+      "rel_speed_kms": 7.348,
+      "class": "watch",
+      "pc": 2.1363886652083568e-17,
+      "sigma_m": 1626.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.25
+      }
+    },
+    {
+      "id": "65053-47027-20261123T140147",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 47027,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T14:01:47.347Z",
+      "miss_km": 10.03,
+      "rel_speed_kms": 13.444,
+      "class": "watch",
+      "pc": 2.7731853405856772e-18,
+      "sigma_m": 1344.4,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.69
+      }
+    },
+    {
+      "id": "41877-37849-20261121T221114",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "SUOMI NPP",
+        "norad": 37849,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-21T22:11:14.993Z",
+      "miss_km": 9.024,
+      "rel_speed_kms": 13.422,
+      "class": "watch",
+      "pc": 1.033471621358147e-18,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "44804-30826-20261121T160554",
+      "primary": {
+        "name": "CARTOSAT-3",
+        "norad": 44804
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30826,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T16:05:54.149Z",
+      "miss_km": 9.476,
+      "rel_speed_kms": 15.099,
+      "class": "watch",
+      "pc": 6.563193815039854e-19,
+      "sigma_m": 1249.7,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.35,
+        "secondary": 0.5
+      }
+    },
+    {
+      "id": "41877-35706-20261124T074149",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35706,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T07:41:49.863Z",
+      "miss_km": 22.748,
+      "rel_speed_kms": 14.873,
+      "class": "watch",
+      "pc": 6.327082305648745e-19,
+      "sigma_m": 3097.6,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 4.2
+      }
+    },
+    {
+      "id": "54361-46440-20261124T002802",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 46440,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T00:28:02.577Z",
+      "miss_km": 21.983,
+      "rel_speed_kms": 8.937,
+      "class": "watch",
+      "pc": 1.1709603628299026e-19,
+      "sigma_m": 2897.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 3.79
+      }
+    },
+    {
+      "id": "65053-37095-20261122T203256",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 37095,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T20:32:56.243Z",
+      "miss_km": 13.355,
+      "rel_speed_kms": 14.427,
+      "class": "watch",
+      "pc": 3.359259470215911e-20,
+      "sigma_m": 1674.5,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.35
+      }
+    },
+    {
+      "id": "41877-33892-20261121T170730",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33892,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T17:07:30.972Z",
+      "miss_km": 9.534,
+      "rel_speed_kms": 14.527,
+      "class": "watch",
+      "pc": 1.3265551540250014e-20,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.32
+      }
+    },
+    {
+      "id": "65053-34477-20261123T184353",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34477,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T18:43:53.918Z",
+      "miss_km": 10.185,
+      "rel_speed_kms": 4.383,
+      "class": "watch",
+      "pc": 7.398004102564005e-21,
+      "sigma_m": 1236.5,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.47
+      }
+    },
+    {
+      "id": "41877-31716-20261123T215617",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31716,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T21:56:17.996Z",
+      "miss_km": 14.388,
+      "rel_speed_kms": 14.722,
+      "class": "watch",
+      "pc": 3.1349820119211485e-21,
+      "sigma_m": 1760.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 1.52
+      }
+    },
+    {
+      "id": "65053-34525-20261122T220817",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34525,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T22:08:17.424Z",
+      "miss_km": 9.977,
+      "rel_speed_kms": 12.032,
+      "class": "watch",
+      "pc": 2.7654580069696257e-21,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "44804-33655-20261123T062250",
+      "primary": {
+        "name": "CARTOSAT-3",
+        "norad": 44804
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 33655,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T06:22:50.556Z",
+      "miss_km": 11.912,
+      "rel_speed_kms": 7.614,
+      "class": "watch",
+      "pc": 2.2694686809567925e-21,
+      "sigma_m": 1441.9,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.35,
+        "secondary": 0.88
+      }
+    },
+    {
+      "id": "65053-34525-20261122T202826",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34525,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T20:28:26.360Z",
+      "miss_km": 10.027,
+      "rel_speed_kms": 12.039,
+      "class": "watch",
+      "pc": 1.9488974554189475e-21,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "65053-30696-20261121T184522",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30696,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T18:45:22.684Z",
+      "miss_km": 10.961,
+      "rel_speed_kms": 13.728,
+      "class": "watch",
+      "pc": 7.41924971982063e-22,
+      "sigma_m": 1289.3,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.58
+      }
+    },
+    {
+      "id": "41877-30670-20261122T122800",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30670,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T12:28:00.340Z",
+      "miss_km": 10.879,
+      "rel_speed_kms": 3.965,
+      "class": "watch",
+      "pc": 4.651144227832115e-22,
+      "sigma_m": 1283.1,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.57
+      }
+    },
+    {
+      "id": "65053-37499-20261122T061500",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 37499,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T06:15:00.956Z",
+      "miss_km": 12.973,
+      "rel_speed_kms": 11.639,
+      "class": "watch",
+      "pc": 2.5372917556406473e-22,
+      "sigma_m": 1510.2,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.02
+      }
+    },
+    {
+      "id": "54361-32418-20261122T160135",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 32418,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T16:01:35.453Z",
+      "miss_km": 20.52,
+      "rel_speed_kms": 11.893,
+      "class": "watch",
+      "pc": 1.7085880513310716e-22,
+      "sigma_m": 2429.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 2.86
+      }
+    },
+    {
+      "id": "54361-35020-20261123T115020",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35020,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T11:50:20.155Z",
+      "miss_km": 10.54,
+      "rel_speed_kms": 14.819,
+      "class": "watch",
+      "pc": 1.5785091862779984e-22,
+      "sigma_m": 1223.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "54361-30177-20261122T213237",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30177,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T21:32:37.719Z",
+      "miss_km": 14.413,
+      "rel_speed_kms": 14.918,
+      "class": "watch",
+      "pc": 1.5637448848124452e-22,
+      "sigma_m": 1687.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.37
+      }
+    },
+    {
+      "id": "41877-37686-20261122T164312",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 37686,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T16:43:12.854Z",
+      "miss_km": 18.9,
+      "rel_speed_kms": 10.289,
+      "class": "watch",
+      "pc": 1.406451996443814e-22,
+      "sigma_m": 2226.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 2.45
+      }
+    },
+    {
+      "id": "65053-34990-20261123T014909",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34990,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T01:49:09.099Z",
+      "miss_km": 10.594,
+      "rel_speed_kms": 14.914,
+      "class": "watch",
+      "pc": 3.202170515525383e-23,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "65053-31734-20261122T092610",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31734,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T09:26:10.785Z",
+      "miss_km": 10.721,
+      "rel_speed_kms": 14.663,
+      "class": "watch",
+      "pc": 3.007055110207679e-23,
+      "sigma_m": 1206.6,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.41
+      }
+    },
+    {
+      "id": "41877-34756-20261123T221002",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34756,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T22:10:02.832Z",
+      "miss_km": 14.93,
+      "rel_speed_kms": 14.311,
+      "class": "watch",
+      "pc": 2.5064340898826977e-23,
+      "sigma_m": 1705.9,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 1.41
+      }
+    },
+    {
+      "id": "65053-33656-20261123T202320",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 33656,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T20:23:20.372Z",
+      "miss_km": 10.951,
+      "rel_speed_kms": 14.683,
+      "class": "watch",
+      "pc": 1.2571866763375444e-23,
+      "sigma_m": 1219.3,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.44
+      }
+    },
+    {
+      "id": "65053-35465-20261121T220324",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35465,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T22:03:24.928Z",
+      "miss_km": 12.591,
+      "rel_speed_kms": 13.223,
+      "class": "watch",
+      "pc": 7.856201523016416e-24,
+      "sigma_m": 1398.5,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.8
+      }
+    },
+    {
+      "id": "65053-31566-20261124T113837",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31566,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T11:38:37.619Z",
+      "miss_km": 13.408,
+      "rel_speed_kms": 11.879,
+      "class": "watch",
+      "pc": 7.044413862803015e-24,
+      "sigma_m": 1489.6,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.98
+      }
+    },
+    {
+      "id": "65053-31473-20261122T212702",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31473,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T21:27:02.519Z",
+      "miss_km": 20.596,
+      "rel_speed_kms": 14.436,
+      "class": "watch",
+      "pc": 5.826266004705726e-24,
+      "sigma_m": 2307.8,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 2.62
+      }
+    },
+    {
+      "id": "65053-34525-20261122T193829",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34525,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T19:38:29.533Z",
+      "miss_km": 10.859,
+      "rel_speed_kms": 12.074,
+      "class": "watch",
+      "pc": 4.361732777725855e-24,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "65053-30385-20261124T082153",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30385,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T08:21:53.134Z",
+      "miss_km": 11.974,
+      "rel_speed_kms": 13.91,
+      "class": "watch",
+      "pc": 8.895048559137998e-25,
+      "sigma_m": 1293.2,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.59
+      }
+    },
+    {
+      "id": "65053-31780-20261122T002820",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31780,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T00:28:20.018Z",
+      "miss_km": 14.419,
+      "rel_speed_kms": 2.596,
+      "class": "watch",
+      "pc": 7.066302901256799e-25,
+      "sigma_m": 1559.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.12
+      }
+    },
+    {
+      "id": "54361-31333-20261121T201157",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31333,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T20:11:57.204Z",
+      "miss_km": 22.025,
+      "rel_speed_kms": 10.422,
+      "class": "watch",
+      "pc": 6.359409770785246e-25,
+      "sigma_m": 2424.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 2.85
+      }
+    },
+    {
+      "id": "41877-37849-20261121T212031",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "SUOMI NPP",
+        "norad": 37849,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-21T21:20:31.998Z",
+      "miss_km": 11.07,
+      "rel_speed_kms": 13.447,
+      "class": "watch",
+      "pc": 3.7745572347216187e-25,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "65053-37998-20261124T132037",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 37998,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T13:20:37.363Z",
+      "miss_km": 14.081,
+      "rel_speed_kms": 14.559,
+      "class": "watch",
+      "pc": 1.5940361338694187e-25,
+      "sigma_m": 1496.1,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.99
+      }
+    },
+    {
+      "id": "54361-33775-20261121T215233",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 33775,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T21:52:33.217Z",
+      "miss_km": 11.676,
+      "rel_speed_kms": 14.728,
+      "class": "watch",
+      "pc": 3.4508251433670654e-26,
+      "sigma_m": 1223.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "41877-31151-20261122T214600",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31151,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T21:46:00.015Z",
+      "miss_km": 12.525,
+      "rel_speed_kms": 5.768,
+      "class": "watch",
+      "pc": 3.1675445335068294e-26,
+      "sigma_m": 1313.1,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.63
+      }
+    },
+    {
+      "id": "65053-34525-20261122T211820",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34525,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T21:18:20.590Z",
+      "miss_km": 11.632,
+      "rel_speed_kms": 12.067,
+      "class": "watch",
+      "pc": 9.669502826691474e-27,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "51656-35670-20261124T115032",
+      "primary": {
+        "name": "EOS-4",
+        "norad": 51656
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35670,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T11:50:32.512Z",
+      "miss_km": 14.206,
+      "rel_speed_kms": 11.877,
+      "class": "watch",
+      "pc": 8.55752511542478e-27,
+      "sigma_m": 1471.9,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.94
+      }
+    },
+    {
+      "id": "41877-35123-20261121T220050",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 35123,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T22:00:50.451Z",
+      "miss_km": 13.784,
+      "rel_speed_kms": 13.226,
+      "class": "watch",
+      "pc": 8.075261302435192e-27,
+      "sigma_m": 1426.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.85
+      }
+    },
+    {
+      "id": "54361-34985-20261122T142715",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34985,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T14:27:15.396Z",
+      "miss_km": 11.637,
+      "rel_speed_kms": 14.553,
+      "class": "watch",
+      "pc": 5.8076930253116676e-27,
+      "sigma_m": 1195.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "65053-34990-20261123T032900",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34990,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T03:29:00.827Z",
+      "miss_km": 11.752,
+      "rel_speed_kms": 14.913,
+      "class": "watch",
+      "pc": 3.6162046590071424e-27,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "41877-29850-20261122T143253",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29850,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T14:32:53.974Z",
+      "miss_km": 12.012,
+      "rel_speed_kms": 14.759,
+      "class": "watch",
+      "pc": 3.2091090838087864e-27,
+      "sigma_m": 1227.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "41877-34037-20261123T075703",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34037,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T07:57:03.993Z",
+      "miss_km": 12.347,
+      "rel_speed_kms": 11.373,
+      "class": "watch",
+      "pc": 4.6279083273396515e-28,
+      "sigma_m": 1236.7,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.47
+      }
+    },
+    {
+      "id": "65053-30040-20261122T032232",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30040,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T03:22:32.687Z",
+      "miss_km": 13.504,
+      "rel_speed_kms": 14.817,
+      "class": "watch",
+      "pc": 4.363248864872547e-28,
+      "sigma_m": 1344.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.69
+      }
+    },
+    {
+      "id": "54361-34071-20261123T160407",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34071,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T16:04:07.661Z",
+      "miss_km": 12.351,
+      "rel_speed_kms": 14.783,
+      "class": "watch",
+      "pc": 2.631023906727694e-28,
+      "sigma_m": 1230.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.46
+      }
+    },
+    {
+      "id": "65053-32163-20261121T175530",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 32163,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T17:55:30.635Z",
+      "miss_km": 21.808,
+      "rel_speed_kms": 13.517,
+      "class": "watch",
+      "pc": 8.856268143680839e-29,
+      "sigma_m": 2158.2,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 2.32
+      }
+    },
+    {
+      "id": "41877-31056-20261122T040310",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31056,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T04:03:10.769Z",
+      "miss_km": 12.66,
+      "rel_speed_kms": 10.756,
+      "class": "watch",
+      "pc": 5.998025164688675e-29,
+      "sigma_m": 1242.9,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.49
+      }
+    },
+    {
+      "id": "41877-34689-20261122T113002",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34689,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T11:30:02.678Z",
+      "miss_km": 17.854,
+      "rel_speed_kms": 7.617,
+      "class": "watch",
+      "pc": 2.0157389701727363e-29,
+      "sigma_m": 1746.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 1.49
+      }
+    },
+    {
+      "id": "65053-37537-20261123T102913",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 37537,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T10:29:13.444Z",
+      "miss_km": 12.477,
+      "rel_speed_kms": 14.811,
+      "class": "watch",
+      "pc": 7.547569366616658e-30,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.33
+      }
+    },
+    {
+      "id": "65053-30560-20261123T025359",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30560,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T02:53:59.576Z",
+      "miss_km": 14.186,
+      "rel_speed_kms": 14.687,
+      "class": "watch",
+      "pc": 6.311393255011519e-30,
+      "sigma_m": 1357.3,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.71
+      }
+    },
+    {
+      "id": "41877-35721-20261124T081811",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35721,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T08:18:11.529Z",
+      "miss_km": 21.401,
+      "rel_speed_kms": 14.061,
+      "class": "watch",
+      "pc": 4.2112113994329666e-30,
+      "sigma_m": 2068.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 2.14
+      }
+    },
+    {
+      "id": "65053-33761-20261124T150945",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33761,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T15:09:45.307Z",
+      "miss_km": 12.673,
+      "rel_speed_kms": 14.916,
+      "class": "watch",
+      "pc": 1.3296631791786971e-30,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "65053-30539-20261123T200852",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30539,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T20:08:52.688Z",
+      "miss_km": 14.277,
+      "rel_speed_kms": 14.769,
+      "class": "watch",
+      "pc": 5.805615434684766e-31,
+      "sigma_m": 1336.8,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.67
+      }
+    },
+    {
+      "id": "65053-29976-20261124T071018",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29976,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T07:10:18.127Z",
+      "miss_km": 12.991,
+      "rel_speed_kms": 14.777,
+      "class": "watch",
+      "pc": 3.7568484313898028e-31,
+      "sigma_m": 1209.6,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.42
+      }
+    },
+    {
+      "id": "41877-30547-20261121T224845",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30547,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T22:48:45.121Z",
+      "miss_km": 13.542,
+      "rel_speed_kms": 14.096,
+      "class": "watch",
+      "pc": 3.612957607922309e-31,
+      "sigma_m": 1268.9,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.54
+      }
+    },
+    {
+      "id": "54361-34433-20261124T083623",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34433,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T08:36:23.468Z",
+      "miss_km": 12.953,
+      "rel_speed_kms": 14.827,
+      "class": "watch",
+      "pc": 1.1715862944297683e-31,
+      "sigma_m": 1200.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.4
+      }
+    },
+    {
+      "id": "54361-31237-20261122T210600",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31237,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T21:06:00.544Z",
+      "miss_km": 18.267,
+      "rel_speed_kms": 11.438,
+      "class": "watch",
+      "pc": 4.9252287878886306e-32,
+      "sigma_m": 1690.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.38
+      }
+    },
+    {
+      "id": "65053-30915-20261124T022846",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30915,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T02:28:46.580Z",
+      "miss_km": 16.218,
+      "rel_speed_kms": 11.087,
+      "class": "watch",
+      "pc": 3.9932802127970723e-32,
+      "sigma_m": 1486.7,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.97
+      }
+    },
+    {
+      "id": "41877-33933-20261124T123946",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33933,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T12:39:46.450Z",
+      "miss_km": 13.122,
+      "rel_speed_kms": 12.058,
+      "class": "watch",
+      "pc": 1.8404362832007605e-32,
+      "sigma_m": 1197.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.39
+      }
+    },
+    {
+      "id": "65053-34159-20261122T120856",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34159,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T12:08:56.983Z",
+      "miss_km": 13.269,
+      "rel_speed_kms": 12.201,
+      "class": "watch",
+      "pc": 7.181283916941652e-33,
+      "sigma_m": 1194.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.39
+      }
+    },
+    {
+      "id": "65053-30489-20261122T232512",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30489,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T23:25:12.601Z",
+      "miss_km": 13.442,
+      "rel_speed_kms": 14.846,
+      "class": "watch",
+      "pc": 1.151195930267197e-33,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.38
+      }
+    },
+    {
+      "id": "54361-32160-20261124T075216",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 32160,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T07:52:16.265Z",
+      "miss_km": 16.208,
+      "rel_speed_kms": 9.387,
+      "class": "watch",
+      "pc": 1.026631465485359e-33,
+      "sigma_m": 1449.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.9
+      }
+    },
+    {
+      "id": "65053-30700-20261124T005812",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30700,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T00:58:12.496Z",
+      "miss_km": 13.48,
+      "rel_speed_kms": 14.632,
+      "class": "watch",
+      "pc": 7.99657643515913e-34,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.33
+      }
+    },
+    {
+      "id": "65053-30895-20261123T212946",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30895,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T21:29:46.676Z",
+      "miss_km": 17.811,
+      "rel_speed_kms": 12.176,
+      "class": "watch",
+      "pc": 7.649538580303056e-34,
+      "sigma_m": 1582.6,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.17
+      }
+    },
+    {
+      "id": "54361-31456-20261122T051643",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31456,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T05:16:43.955Z",
+      "miss_km": 17.513,
+      "rel_speed_kms": 1.784,
+      "class": "watch",
+      "pc": 1.4199282038369037e-34,
+      "sigma_m": 1543.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.09
+      }
+    },
+    {
+      "id": "65053-38067-20261124T110338",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 38067,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T11:03:38.798Z",
+      "miss_km": 19.107,
+      "rel_speed_kms": 14.891,
+      "class": "watch",
+      "pc": 8.791140040697569e-35,
+      "sigma_m": 1670.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.34
+      }
+    },
+    {
+      "id": "54361-30093-20261123T191714",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30093,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T19:17:14.592Z",
+      "miss_km": 14.017,
+      "rel_speed_kms": 14.512,
+      "class": "watch",
+      "pc": 7.20545258448591e-35,
+      "sigma_m": 1224.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "65053-34793-20261122T114627",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34793,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T11:46:27.124Z",
+      "miss_km": 13.746,
+      "rel_speed_kms": 14.934,
+      "class": "watch",
+      "pc": 6.286447350515557e-35,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "54361-31286-20261124T061919",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31286,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T06:19:19.941Z",
+      "miss_km": 15.923,
+      "rel_speed_kms": 12.754,
+      "class": "watch",
+      "pc": 4.8122458024522714e-35,
+      "sigma_m": 1389.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.78
+      }
+    },
+    {
+      "id": "65053-30040-20261122T014233",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30040,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T01:42:33.923Z",
+      "miss_km": 15.556,
+      "rel_speed_kms": 14.817,
+      "class": "watch",
+      "pc": 3.0196325108595195e-35,
+      "sigma_m": 1344.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.69
+      }
+    },
+    {
+      "id": "41877-30505-20261122T104528",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30505,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T10:45:28.545Z",
+      "miss_km": 13.948,
+      "rel_speed_kms": 2.171,
+      "class": "watch",
+      "pc": 2.9340354025126056e-35,
+      "sigma_m": 1209.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.42
+      }
+    },
+    {
+      "id": "65053-38067-20261124T092425",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 38067,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T09:24:25.861Z",
+      "miss_km": 19.424,
+      "rel_speed_kms": 14.893,
+      "class": "watch",
+      "pc": 9.864129273288633e-36,
+      "sigma_m": 1670.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.34
+      }
+    },
+    {
+      "id": "65053-30873-20261124T034859",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30873,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T03:48:59.122Z",
+      "miss_km": 16.803,
+      "rel_speed_kms": 14.754,
+      "class": "watch",
+      "pc": 7.850273030325547e-36,
+      "sigma_m": 1439.8,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.88
+      }
+    },
+    {
+      "id": "54361-31099-20261123T141251",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31099,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T14:12:51.995Z",
+      "miss_km": 23.9,
+      "rel_speed_kms": 14.73,
+      "class": "watch",
+      "pc": 2.373801464225573e-36,
+      "sigma_m": 2050.6,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 2.1
+      }
+    },
+    {
+      "id": "65053-33691-20261124T111352",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 33691,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T11:13:52.438Z",
+      "miss_km": 19.127,
+      "rel_speed_kms": 14.794,
+      "class": "watch",
+      "pc": 6.40545841804364e-37,
+      "sigma_m": 1612.2,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.22
+      }
+    },
+    {
+      "id": "65053-30413-20261124T101427",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30413,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T10:14:27.783Z",
+      "miss_km": 14.315,
+      "rel_speed_kms": 14.706,
+      "class": "watch",
+      "pc": 2.297318691208565e-37,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.37
+      }
+    },
+    {
+      "id": "65053-31225-20261123T090015",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31225,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T09:00:15.670Z",
+      "miss_km": 14.954,
+      "rel_speed_kms": 11.572,
+      "class": "watch",
+      "pc": 1.0252262214967392e-37,
+      "sigma_m": 1239.8,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.48
+      }
+    },
+    {
+      "id": "41877-30600-20261122T141541",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30600,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T14:15:41.044Z",
+      "miss_km": 14.58,
+      "rel_speed_kms": 14.025,
+      "class": "watch",
+      "pc": 8.165574996696966e-38,
+      "sigma_m": 1212.1,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.42
+      }
+    },
+    {
+      "id": "44804-37496-20261121T162108",
+      "primary": {
+        "name": "CARTOSAT-3",
+        "norad": 44804
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 37496,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T16:21:08.378Z",
+      "miss_km": 14.214,
+      "rel_speed_kms": 6.749,
+      "class": "watch",
+      "pc": 5.559750085026975e-38,
+      "sigma_m": 1178.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.35,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "41877-30541-20261123T125728",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30541,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T12:57:28.403Z",
+      "miss_km": 15.556,
+      "rel_speed_kms": 3.186,
+      "class": "watch",
+      "pc": 1.7322406537138258e-38,
+      "sigma_m": 1280.6,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.56
+      }
+    },
+    {
+      "id": "54361-34071-20261123T151422",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34071,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T15:14:22.700Z",
+      "miss_km": 15.116,
+      "rel_speed_kms": 14.819,
+      "class": "watch",
+      "pc": 3.309321853652044e-39,
+      "sigma_m": 1230.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.46
+      }
+    },
+    {
+      "id": "41877-33892-20261122T022446",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33892,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T02:24:46.899Z",
+      "miss_km": 14.522,
+      "rel_speed_kms": 14.531,
+      "class": "watch",
+      "pc": 2.18596790925797e-39,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.32
+      }
+    },
+    {
+      "id": "54361-31727-20261122T192245",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31727,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T19:22:45.827Z",
+      "miss_km": 23.634,
+      "rel_speed_kms": 4.181,
+      "class": "watch",
+      "pc": 6.5011786668915505e-40,
+      "sigma_m": 1913.7,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.83
+      }
+    },
+    {
+      "id": "41877-43010-20261124T114754",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 3D",
+        "norad": 43010,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-24T11:47:54.542Z",
+      "miss_km": 15.261,
+      "rel_speed_kms": 10.804,
+      "class": "watch",
+      "pc": 2.392465451766667e-40,
+      "sigma_m": 1213.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.43
+      }
+    },
+    {
+      "id": "65053-30120-20261122T135106",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30120,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T13:51:06.641Z",
+      "miss_km": 18.57,
+      "rel_speed_kms": 10.772,
+      "class": "watch",
+      "pc": 2.632567276843789e-41,
+      "sigma_m": 1461.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.92
+      }
+    },
+    {
+      "id": "54361-34159-20261122T002200",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34159,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T00:22:00.969Z",
+      "miss_km": 15.194,
+      "rel_speed_kms": 14.728,
+      "class": "watch",
+      "pc": 1.843270979004859e-41,
+      "sigma_m": 1195.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.39
+      }
+    },
+    {
+      "id": "41877-43010-20261124T105712",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 3D",
+        "norad": 43010,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-24T10:57:12.758Z",
+      "miss_km": 15.738,
+      "rel_speed_kms": 10.782,
+      "class": "watch",
+      "pc": 1.5653453407335704e-42,
+      "sigma_m": 1213.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.43
+      }
+    },
+    {
+      "id": "54361-30093-20261123T155758",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30093,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T15:57:58.314Z",
+      "miss_km": 15.811,
+      "rel_speed_kms": 14.512,
+      "class": "watch",
+      "pc": 1.2831174408552415e-42,
+      "sigma_m": 1224.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "44804-33655-20261123T071012",
+      "primary": {
+        "name": "CARTOSAT-3",
+        "norad": 44804
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 33655,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T07:10:12.988Z",
+      "miss_km": 18.769,
+      "rel_speed_kms": 7.605,
+      "class": "watch",
+      "pc": 2.41723571821953e-43,
+      "sigma_m": 1441.9,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.35,
+        "secondary": 0.88
+      }
+    },
+    {
+      "id": "54361-33775-20261121T201248",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 33775,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T20:12:48.799Z",
+      "miss_km": 15.957,
+      "rel_speed_kms": 14.726,
+      "class": "watch",
+      "pc": 2.3594738759019196e-43,
+      "sigma_m": 1223.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "41877-31361-20261123T120920",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31361,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T12:09:20.677Z",
+      "miss_km": 21.355,
+      "rel_speed_kms": 11.574,
+      "class": "watch",
+      "pc": 1.3279772077401796e-43,
+      "sigma_m": 1637.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 1.27
+      }
+    },
+    {
+      "id": "44804-36050-20261122T212219",
+      "primary": {
+        "name": "CARTOSAT-3",
+        "norad": 44804
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 36050,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T21:22:19.649Z",
+      "miss_km": 21.276,
+      "rel_speed_kms": 15.212,
+      "class": "watch",
+      "pc": 1.1526137515903962e-43,
+      "sigma_m": 1629.7,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.35,
+        "secondary": 1.26
+      }
+    },
+    {
+      "id": "65053-31944-20261122T030021",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31944,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T03:00:21.625Z",
+      "miss_km": 15.8,
+      "rel_speed_kms": 2.943,
+      "class": "watch",
+      "pc": 3.442075110685477e-44,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.38
+      }
+    },
+    {
+      "id": "41877-30432-20261122T183232",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30432,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T18:32:32.273Z",
+      "miss_km": 16.289,
+      "rel_speed_kms": 14.371,
+      "class": "watch",
+      "pc": 1.663454890511418e-44,
+      "sigma_m": 1229.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.46
+      }
+    },
+    {
+      "id": "54361-34071-20261123T142440",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34071,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T14:24:40.816Z",
+      "miss_km": 16.31,
+      "rel_speed_kms": 14.784,
+      "class": "watch",
+      "pc": 1.3637692407214452e-44,
+      "sigma_m": 1230.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.46
+      }
+    },
+    {
+      "id": "54361-34325-20261123T210311",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34325,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T21:03:11.094Z",
+      "miss_km": 17.781,
+      "rel_speed_kms": 13.186,
+      "class": "watch",
+      "pc": 5.408713700735116e-45,
+      "sigma_m": 1335.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.67
+      }
+    },
+    {
+      "id": "41877-33892-20261122T040602",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33892,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T04:06:02.273Z",
+      "miss_km": 15.738,
+      "rel_speed_kms": 14.527,
+      "class": "watch",
+      "pc": 3.804795173762799e-45,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.32
+      }
+    },
+    {
+      "id": "41877-32422-20261122T191323",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 32422,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T19:13:23.292Z",
+      "miss_km": 21.191,
+      "rel_speed_kms": 2.018,
+      "class": "watch",
+      "pc": 1.6004358027574663e-45,
+      "sigma_m": 1583.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 1.17
+      }
+    },
+    {
+      "id": "65053-35465-20261122T003318",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35465,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T00:33:18.767Z",
+      "miss_km": 18.812,
+      "rel_speed_kms": 13.188,
+      "class": "watch",
+      "pc": 1.593708054342458e-45,
+      "sigma_m": 1398.5,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.8
+      }
+    },
+    {
+      "id": "65053-31566-20261124T104841",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31566,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T10:48:41.040Z",
+      "miss_km": 20.069,
+      "rel_speed_kms": 11.828,
+      "class": "watch",
+      "pc": 1.0671978254737202e-45,
+      "sigma_m": 1489.6,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.98
+      }
+    },
+    {
+      "id": "41877-30646-20261124T114634",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30646,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T11:46:34.099Z",
+      "miss_km": 16.09,
+      "rel_speed_kms": 7.372,
+      "class": "watch",
+      "pc": 4.097143830822626e-46,
+      "sigma_m": 1189.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.38
+      }
+    },
+    {
+      "id": "65053-35102-20261123T215040",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 35102,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T21:50:40.488Z",
+      "miss_km": 22.797,
+      "rel_speed_kms": 14.809,
+      "class": "watch",
+      "pc": 1.7225650982002759e-46,
+      "sigma_m": 1677.6,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.36
+      }
+    },
+    {
+      "id": "54361-33933-20261121T215332",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33933,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T21:53:32.014Z",
+      "miss_km": 16.414,
+      "rel_speed_kms": 10.858,
+      "class": "watch",
+      "pc": 3.4711648327851427e-47,
+      "sigma_m": 1197.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.39
+      }
+    },
+    {
+      "id": "41877-29874-20261124T075940",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29874,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T07:59:40.099Z",
+      "miss_km": 17.004,
+      "rel_speed_kms": 14.691,
+      "class": "watch",
+      "pc": 1.9989203916769149e-47,
+      "sigma_m": 1237.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.47
+      }
+    },
+    {
+      "id": "54361-33966-20261121T215329",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 33966,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T21:53:29.116Z",
+      "miss_km": 16.58,
+      "rel_speed_kms": 14.827,
+      "class": "watch",
+      "pc": 3.74576656607854e-48,
+      "sigma_m": 1195.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "54361-35033-20261123T145554",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35033,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T14:55:54.343Z",
+      "miss_km": 17.704,
+      "rel_speed_kms": 14.948,
+      "class": "watch",
+      "pc": 2.828045961365441e-48,
+      "sigma_m": 1275.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.55
+      }
+    },
+    {
+      "id": "54361-35830-20261123T074450",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35830,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T07:44:50.433Z",
+      "miss_km": 22.666,
+      "rel_speed_kms": 8.713,
+      "class": "watch",
+      "pc": 1.467937586996512e-48,
+      "sigma_m": 1631.7,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.26
+      }
+    },
+    {
+      "id": "41877-30932-20261121T170642",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30932,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T17:06:42.394Z",
+      "miss_km": 16.516,
+      "rel_speed_kms": 13.123,
+      "class": "watch",
+      "pc": 4.510530006513517e-49,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "65053-41831-20261122T035257",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 41831,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T03:52:57.387Z",
+      "miss_km": 24.731,
+      "rel_speed_kms": 12.473,
+      "class": "watch",
+      "pc": 1.779286202351043e-49,
+      "sigma_m": 1756.5,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.51
+      }
+    },
+    {
+      "id": "54361-31215-20261123T001727",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31215,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T00:17:27.133Z",
+      "miss_km": 22.943,
+      "rel_speed_kms": 13.389,
+      "class": "watch",
+      "pc": 5.551879535865436e-50,
+      "sigma_m": 1624.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.25
+      }
+    },
+    {
+      "id": "51656-29228-20261123T220831",
+      "primary": {
+        "name": "EOS-4",
+        "norad": 51656
+      },
+      "secondary": {
+        "name": "RESURS-DK 1",
+        "norad": 29228,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-23T22:08:31.094Z",
+      "miss_km": 17.554,
+      "rel_speed_kms": 6.808,
+      "class": "watch",
+      "pc": 2.8467473053023875e-50,
+      "sigma_m": 1229.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.46
+      }
+    },
+    {
+      "id": "54361-34985-20261122T151702",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34985,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T15:17:02.505Z",
+      "miss_km": 17.046,
+      "rel_speed_kms": 14.518,
+      "class": "watch",
+      "pc": 1.5524614871558467e-50,
+      "sigma_m": 1195.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "65053-29979-20261122T154657",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29979,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T15:46:57.457Z",
+      "miss_km": 17.282,
+      "rel_speed_kms": 14.802,
+      "class": "watch",
+      "pc": 1.1356620076913365e-51,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "54361-31260-20261121T221435",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31260,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T22:14:35.912Z",
+      "miss_km": 21.138,
+      "rel_speed_kms": 14.821,
+      "class": "watch",
+      "pc": 2.365173029602044e-52,
+      "sigma_m": 1455.6,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.91
+      }
+    },
+    {
+      "id": "51656-37316-20261123T200001",
+      "primary": {
+        "name": "EOS-4",
+        "norad": 51656
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 37316,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T20:00:01.869Z",
+      "miss_km": 22.226,
+      "rel_speed_kms": 7.873,
+      "class": "watch",
+      "pc": 7.977235702117873e-53,
+      "sigma_m": 1523.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 1.05
+      }
+    },
+    {
+      "id": "54361-35033-20261123T154532",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35033,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T15:45:32.888Z",
+      "miss_km": 18.662,
+      "rel_speed_kms": 14.946,
+      "class": "watch",
+      "pc": 6.30177268522138e-53,
+      "sigma_m": 1275.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.55
+      }
+    },
+    {
+      "id": "54361-47025-20261122T100956",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 47025,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T10:09:56.738Z",
+      "miss_km": 18.355,
+      "rel_speed_kms": 13.833,
+      "class": "watch",
+      "pc": 5.022972251018482e-53,
+      "sigma_m": 1253.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.51
+      }
+    },
+    {
+      "id": "65053-33761-20261124T141954",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33761,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T14:19:54.377Z",
+      "miss_km": 17.557,
+      "rel_speed_kms": 14.888,
+      "class": "watch",
+      "pc": 3.8962205011679256e-53,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "54361-33994-20261122T083133",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33994,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T08:31:33.146Z",
+      "miss_km": 17.566,
+      "rel_speed_kms": 14.428,
+      "class": "watch",
+      "pc": 2.86856623244565e-53,
+      "sigma_m": 1195.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.39
+      }
+    },
+    {
+      "id": "41877-31474-20261122T063322",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31474,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T06:33:22.469Z",
+      "miss_km": 23.674,
+      "rel_speed_kms": 1.945,
+      "class": "watch",
+      "pc": 8.097956997026036e-54,
+      "sigma_m": 1606.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 1.21
+      }
+    },
+    {
+      "id": "41877-33892-20261121T184846",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33892,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T18:48:46.354Z",
+      "miss_km": 17.426,
+      "rel_speed_kms": 14.522,
+      "class": "watch",
+      "pc": 6.600436279132933e-54,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.32
+      }
+    },
+    {
+      "id": "41877-31816-20261123T143718",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31816,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T14:37:18.882Z",
+      "miss_km": 17.805,
+      "rel_speed_kms": 4.837,
+      "class": "watch",
+      "pc": 2.223123379537563e-54,
+      "sigma_m": 1197.6,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.4
+      }
+    },
+    {
+      "id": "65053-33760-20261121T233518",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33760,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T23:35:18.557Z",
+      "miss_km": 18.847,
+      "rel_speed_kms": 14.137,
+      "class": "watch",
+      "pc": 1.7805299880327178e-54,
+      "sigma_m": 1263.2,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.53
+      }
+    },
+    {
+      "id": "54361-30093-20261124T010545",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30093,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T01:05:45.408Z",
+      "miss_km": 18.269,
+      "rel_speed_kms": 14.513,
+      "class": "watch",
+      "pc": 9.415695160308776e-55,
+      "sigma_m": 1224.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "54361-33842-20261123T074642",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33842,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T07:46:42.621Z",
+      "miss_km": 18.017,
+      "rel_speed_kms": 13.355,
+      "class": "watch",
+      "pc": 2.1948761752741696e-55,
+      "sigma_m": 1199.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.4
+      }
+    },
+    {
+      "id": "41877-43214-20261122T003753",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 43214,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T00:37:53.034Z",
+      "miss_km": 18.735,
+      "rel_speed_kms": 0.56,
+      "class": "watch",
+      "pc": 1.883850984900116e-55,
+      "sigma_m": 1246.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.49
+      }
+    },
+    {
+      "id": "54361-47025-20261122T114924",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 47025,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T11:49:24.508Z",
+      "miss_km": 18.907,
+      "rel_speed_kms": 13.833,
+      "class": "watch",
+      "pc": 7.180925629377004e-56,
+      "sigma_m": 1253.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.51
+      }
+    },
+    {
+      "id": "65053-30040-20261122T050231",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30040,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T05:02:31.450Z",
+      "miss_km": 20.464,
+      "rel_speed_kms": 14.817,
+      "class": "watch",
+      "pc": 1.8009801615299994e-56,
+      "sigma_m": 1344.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.69
+      }
+    },
+    {
+      "id": "54361-35033-20261123T140609",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35033,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T14:06:09.677Z",
+      "miss_km": 19.478,
+      "rel_speed_kms": 14.946,
+      "class": "watch",
+      "pc": 4.4229418519613593e-57,
+      "sigma_m": 1275.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.55
+      }
+    },
+    {
+      "id": "54361-31260-20261121T203442",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31260,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T20:34:42.685Z",
+      "miss_km": 22.267,
+      "rel_speed_kms": 14.821,
+      "class": "watch",
+      "pc": 2.2538991366573518e-57,
+      "sigma_m": 1455.6,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.91
+      }
+    },
+    {
+      "id": "65053-30432-20261124T045326",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30432,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T04:53:26.334Z",
+      "miss_km": 18.931,
+      "rel_speed_kms": 10.46,
+      "class": "watch",
+      "pc": 1.4134177327969368e-57,
+      "sigma_m": 1229.8,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.46
+      }
+    },
+    {
+      "id": "65053-30366-20261124T072219",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30366,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T07:22:19.662Z",
+      "miss_km": 18.405,
+      "rel_speed_kms": 11.983,
+      "class": "watch",
+      "pc": 8.720816222575271e-58,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.38
+      }
+    },
+    {
+      "id": "65053-33502-20261121T224420",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 33502,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T22:44:20.154Z",
+      "miss_km": 18.443,
+      "rel_speed_kms": 13.474,
+      "class": "watch",
+      "pc": 5.2838657756048045e-58,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.37
+      }
+    },
+    {
+      "id": "65053-29884-20261124T090853",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29884,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T09:08:53.163Z",
+      "miss_km": 19.315,
+      "rel_speed_kms": 11.737,
+      "class": "watch",
+      "pc": 3.431064401308148e-60,
+      "sigma_m": 1223.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "41877-37432-20261123T171133",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 37432,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T17:11:33.556Z",
+      "miss_km": 18.681,
+      "rel_speed_kms": 7.465,
+      "class": "watch",
+      "pc": 1.6523800237203488e-60,
+      "sigma_m": 1183.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.37
+      }
+    },
+    {
+      "id": "41877-30015-20261121T225743",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30015,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T22:57:43.854Z",
+      "miss_km": 20.753,
+      "rel_speed_kms": 5.397,
+      "class": "watch",
+      "pc": 8.056680603225951e-61,
+      "sigma_m": 1311.7,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.62
+      }
+    },
+    {
+      "id": "51656-29228-20261123T234345",
+      "primary": {
+        "name": "EOS-4",
+        "norad": 51656
+      },
+      "secondary": {
+        "name": "RESURS-DK 1",
+        "norad": 29228,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-23T23:43:45.461Z",
+      "miss_km": 19.555,
+      "rel_speed_kms": 6.832,
+      "class": "watch",
+      "pc": 6.094716387284947e-61,
+      "sigma_m": 1229.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.46
+      }
+    },
+    {
+      "id": "54361-30093-20261123T232607",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30093,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T23:26:07.273Z",
+      "miss_km": 19.41,
+      "rel_speed_kms": 14.513,
+      "class": "watch",
+      "pc": 5.578450478277821e-61,
+      "sigma_m": 1224.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "65053-36652-20261121T170232",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 36652,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T17:02:32.546Z",
+      "miss_km": 23.425,
+      "rel_speed_kms": 10.695,
+      "class": "watch",
+      "pc": 4.4433651175096784e-61,
+      "sigma_m": 1474.6,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.95
+      }
+    },
+    {
+      "id": "65053-31566-20261124T095841",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31566,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T09:58:41.023Z",
+      "miss_km": 23.816,
+      "rel_speed_kms": 11.879,
+      "class": "watch",
+      "pc": 8.629490815684969e-62,
+      "sigma_m": 1489.6,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.98
+      }
+    },
+    {
+      "id": "51656-35905-20261123T070815",
+      "primary": {
+        "name": "EOS-4",
+        "norad": 51656
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35905,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T07:08:15.363Z",
+      "miss_km": 20.371,
+      "rel_speed_kms": 12.161,
+      "class": "watch",
+      "pc": 3.2140276889630243e-62,
+      "sigma_m": 1271.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.54
+      }
+    },
+    {
+      "id": "54361-35033-20261123T163517",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35033,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T16:35:17.555Z",
+      "miss_km": 20.452,
+      "rel_speed_kms": 14.948,
+      "class": "watch",
+      "pc": 2.8649135998894493e-62,
+      "sigma_m": 1275.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.55
+      }
+    },
+    {
+      "id": "65053-37537-20261123T084910",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 37537,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T08:49:10.832Z",
+      "miss_km": 19.206,
+      "rel_speed_kms": 14.808,
+      "class": "watch",
+      "pc": 2.202509258437684e-62,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.33
+      }
+    },
+    {
+      "id": "54361-31029-20261123T213716",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31029,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T21:37:16.810Z",
+      "miss_km": 19.457,
+      "rel_speed_kms": 14.826,
+      "class": "watch",
+      "pc": 5.980405066916386e-63,
+      "sigma_m": 1205.6,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.41
+      }
+    },
+    {
+      "id": "65053-30432-20261124T031331",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30432,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T03:13:31.763Z",
+      "miss_km": 19.948,
+      "rel_speed_kms": 10.46,
+      "class": "watch",
+      "pc": 2.9813573071846617e-63,
+      "sigma_m": 1229.8,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.46
+      }
+    },
+    {
+      "id": "41877-30067-20261122T083152",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30067,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T08:31:52.500Z",
+      "miss_km": 20.319,
+      "rel_speed_kms": 14.613,
+      "class": "watch",
+      "pc": 3.548772352278349e-64,
+      "sigma_m": 1245.9,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.49
+      }
+    },
+    {
+      "id": "51656-29833-20261122T072157",
+      "primary": {
+        "name": "EOS-4",
+        "norad": 51656
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29833,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T07:21:57.573Z",
+      "miss_km": 21.333,
+      "rel_speed_kms": 4.782,
+      "class": "watch",
+      "pc": 1.1456068678566187e-64,
+      "sigma_m": 1303.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.61
+      }
+    },
+    {
+      "id": "54361-33502-20261122T120146",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 33502,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T12:01:46.492Z",
+      "miss_km": 19.676,
+      "rel_speed_kms": 13.858,
+      "class": "watch",
+      "pc": 3.305868243167986e-65,
+      "sigma_m": 1195.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.37
+      }
+    },
+    {
+      "id": "65053-34571-20261122T012325",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34571,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T01:23:25.175Z",
+      "miss_km": 20.344,
+      "rel_speed_kms": 11.816,
+      "class": "watch",
+      "pc": 3.61582145971193e-66,
+      "sigma_m": 1223.3,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "54361-35207-20261122T042646",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 35207,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T04:26:46.845Z",
+      "miss_km": 23.916,
+      "rel_speed_kms": 2.936,
+      "class": "watch",
+      "pc": 3.682114025003761e-67,
+      "sigma_m": 1431.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.86
+      }
+    },
+    {
+      "id": "65053-35297-20261124T072528",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 35297,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T07:25:28.680Z",
+      "miss_km": 21.215,
+      "rel_speed_kms": 12.999,
+      "class": "watch",
+      "pc": 8.18858026659405e-68,
+      "sigma_m": 1258.8,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.52
+      }
+    },
+    {
+      "id": "41877-38709-20261124T123437",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "EXACTVIEW-1 (ADS-1B)",
+        "norad": 38709,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-24T12:34:37.208Z",
+      "miss_km": 22.836,
+      "rel_speed_kms": 6.099,
+      "class": "watch",
+      "pc": 3.41216164118258e-68,
+      "sigma_m": 1350.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.7
+      }
+    },
+    {
+      "id": "54361-33966-20261121T224311",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 33966,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T22:43:11.170Z",
+      "miss_km": 20.336,
+      "rel_speed_kms": 14.788,
+      "class": "watch",
+      "pc": 3.1958921726460565e-69,
+      "sigma_m": 1195.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "65053-30103-20261121T181457",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30103,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T18:14:57.530Z",
+      "miss_km": 20.868,
+      "rel_speed_kms": 14.786,
+      "class": "watch",
+      "pc": 5.820149817568648e-71,
+      "sigma_m": 1207.4,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.41
+      }
+    },
+    {
+      "id": "65053-31724-20261123T152414",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31724,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T15:24:14.626Z",
+      "miss_km": 23.521,
+      "rel_speed_kms": 14.661,
+      "class": "watch",
+      "pc": 5.638986002760449e-71,
+      "sigma_m": 1361.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.72
+      }
+    },
+    {
+      "id": "65053-37687-20261123T115823",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 37687,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T11:58:23.955Z",
+      "miss_km": 20.967,
+      "rel_speed_kms": 14.881,
+      "class": "watch",
+      "pc": 3.684337893243289e-71,
+      "sigma_m": 1211.4,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.42
+      }
+    },
+    {
+      "id": "65053-34908-20261123T134901",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34908,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T13:49:01.811Z",
+      "miss_km": 24.25,
+      "rel_speed_kms": 6.46,
+      "class": "watch",
+      "pc": 2.642166538212254e-72,
+      "sigma_m": 1390.1,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.78
+      }
+    },
+    {
+      "id": "41877-30387-20261123T001816",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30387,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T00:18:16.015Z",
+      "miss_km": 20.719,
+      "rel_speed_kms": 7.616,
+      "class": "watch",
+      "pc": 2.0812017058626025e-73,
+      "sigma_m": 1179.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "54361-35033-20261123T131631",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35033,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T13:16:31.130Z",
+      "miss_km": 22.495,
+      "rel_speed_kms": 14.948,
+      "class": "watch",
+      "pc": 5.563627305750035e-74,
+      "sigma_m": 1275.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.55
+      }
+    },
+    {
+      "id": "65053-34990-20261123T005909",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34990,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T00:59:09.966Z",
+      "miss_km": 21.218,
+      "rel_speed_kms": 14.932,
+      "class": "watch",
+      "pc": 8.514549002442366e-75,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "65053-29884-20261124T104848",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29884,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T10:48:48.258Z",
+      "miss_km": 21.791,
+      "rel_speed_kms": 11.736,
+      "class": "watch",
+      "pc": 5.998581543441136e-75,
+      "sigma_m": 1223.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "65053-47067-20261122T153258",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 47067,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T15:32:58.308Z",
+      "miss_km": 21.775,
+      "rel_speed_kms": 10.383,
+      "class": "watch",
+      "pc": 6.257100957456624e-76,
+      "sigma_m": 1214.3,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.43
+      }
+    },
+    {
+      "id": "54361-29982-20261121T200313",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29982,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T20:03:13.088Z",
+      "miss_km": 22.362,
+      "rel_speed_kms": 13.896,
+      "class": "watch",
+      "pc": 5.428796645596838e-76,
+      "sigma_m": 1249.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.5
+      }
+    },
+    {
+      "id": "41877-37849-20261121T230157",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "SUOMI NPP",
+        "norad": 37849,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-21T23:01:57.446Z",
+      "miss_km": 21.194,
+      "rel_speed_kms": 13.447,
+      "class": "watch",
+      "pc": 2.8045615537989476e-76,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "41877-39543-20261123T162107",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 39543,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T16:21:07.739Z",
+      "miss_km": 21.326,
+      "rel_speed_kms": 7.117,
+      "class": "watch",
+      "pc": 9.941074184056718e-77,
+      "sigma_m": 1184.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.37
+      }
+    },
+    {
+      "id": "41877-29845-20261123T102642",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29845,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T10:26:42.912Z",
+      "miss_km": 21.647,
+      "rel_speed_kms": 8.996,
+      "class": "watch",
+      "pc": 6.3876007746340564e-77,
+      "sigma_m": 1201.1,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.4
+      }
+    },
+    {
+      "id": "65053-34732-20261121T171424",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34732,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T17:14:24.779Z",
+      "miss_km": 21.626,
+      "rel_speed_kms": 3.981,
+      "class": "watch",
+      "pc": 1.8295474190779425e-77,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "51656-36385-20261124T100702",
+      "primary": {
+        "name": "EOS-4",
+        "norad": 51656
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 36385,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T10:07:02.259Z",
+      "miss_km": 23.589,
+      "rel_speed_kms": 14.288,
+      "class": "watch",
+      "pc": 1.0988177494253561e-77,
+      "sigma_m": 1302.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.6
+      }
+    },
+    {
+      "id": "65053-30040-20261122T000235",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30040,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T00:02:35.157Z",
+      "miss_km": 24.452,
+      "rel_speed_kms": 14.817,
+      "class": "watch",
+      "pc": 5.713945186208813e-78,
+      "sigma_m": 1344.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.69
+      }
+    },
+    {
+      "id": "54361-34071-20261123T133455",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34071,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T13:34:55.861Z",
+      "miss_km": 22.335,
+      "rel_speed_kms": 14.821,
+      "class": "watch",
+      "pc": 5.152291055977695e-78,
+      "sigma_m": 1230.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.46
+      }
+    },
+    {
+      "id": "51656-64903-20261123T044746",
+      "primary": {
+        "name": "EOS-4",
+        "norad": 51656
+      },
+      "secondary": {
+        "name": "CO3D 1",
+        "norad": 64903,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-23T04:47:46.859Z",
+      "miss_km": 21.925,
+      "rel_speed_kms": 8.872,
+      "class": "watch",
+      "pc": 8.405741461781823e-79,
+      "sigma_m": 1197.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.39
+      }
+    },
+    {
+      "id": "65053-31903-20261123T145511",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31903,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T14:55:11.397Z",
+      "miss_km": 24.004,
+      "rel_speed_kms": 14.197,
+      "class": "watch",
+      "pc": 2.5692723045561878e-79,
+      "sigma_m": 1307.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.62
+      }
+    },
+    {
+      "id": "65053-39091-20261122T111854",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "BRITE-AUSTRIA",
+        "norad": 39091,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-22T11:18:54.537Z",
+      "miss_km": 22.778,
+      "rel_speed_kms": 1.26,
+      "class": "watch",
+      "pc": 2.810950970870351e-80,
+      "sigma_m": 1230.0,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.46
+      }
+    },
+    {
+      "id": "41877-31732-20261121T202533",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 31732,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T20:25:33.339Z",
+      "miss_km": 24.502,
+      "rel_speed_kms": 5.953,
+      "class": "watch",
+      "pc": 3.120582605111218e-81,
+      "sigma_m": 1320.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.64
+      }
+    },
+    {
+      "id": "41877-33892-20261122T004331",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33892,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T00:43:31.524Z",
+      "miss_km": 22.008,
+      "rel_speed_kms": 14.536,
+      "class": "watch",
+      "pc": 3.4460896847153e-82,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.32
+      }
+    },
+    {
+      "id": "65053-34314-20261122T193402",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34314,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T19:34:02.751Z",
+      "miss_km": 22.547,
+      "rel_speed_kms": 11.64,
+      "class": "watch",
+      "pc": 2.81127154754332e-82,
+      "sigma_m": 1203.8,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.41
+      }
+    },
+    {
+      "id": "41877-44387-20261123T221635",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "METEOR-M2 2",
+        "norad": 44387,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-23T22:16:35.031Z",
+      "miss_km": 22.688,
+      "rel_speed_kms": 9.682,
+      "class": "watch",
+      "pc": 1.7629148829421386e-82,
+      "sigma_m": 1208.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.42
+      }
+    },
+    {
+      "id": "65053-33983-20261124T082138",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33983,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-24T08:21:38.107Z",
+      "miss_km": 23.194,
+      "rel_speed_kms": 8.123,
+      "class": "watch",
+      "pc": 1.639480351044148e-82,
+      "sigma_m": 1236.6,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.47
+      }
+    },
+    {
+      "id": "65053-29871-20261122T133951",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29871,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T13:39:51.797Z",
+      "miss_km": 23.012,
+      "rel_speed_kms": 14.295,
+      "class": "watch",
+      "pc": 1.2852250629342491e-82,
+      "sigma_m": 1226.0,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "65053-34793-20261122T100627",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34793,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T10:06:27.076Z",
+      "miss_km": 22.455,
+      "rel_speed_kms": 14.934,
+      "class": "watch",
+      "pc": 4.8382896318057166e-83,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "41877-32110-20261122T232012",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 32110,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T23:20:12.117Z",
+      "miss_km": 24.467,
+      "rel_speed_kms": 13.562,
+      "class": "watch",
+      "pc": 2.984523574753191e-83,
+      "sigma_m": 1301.1,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.6
+      }
+    },
+    {
+      "id": "41877-34344-20261122T124334",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34344,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T12:43:34.193Z",
+      "miss_km": 23.686,
+      "rel_speed_kms": 14.873,
+      "class": "watch",
+      "pc": 2.5539999868282588e-83,
+      "sigma_m": 1258.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.52
+      }
+    },
+    {
+      "id": "54361-33966-20261121T192417",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 33966,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T19:24:17.258Z",
+      "miss_km": 22.702,
+      "rel_speed_kms": 14.785,
+      "class": "watch",
+      "pc": 1.0765520024712318e-84,
+      "sigma_m": 1195.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "54361-33966-20261121T201402",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 33966,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T20:14:02.173Z",
+      "miss_km": 22.704,
+      "rel_speed_kms": 14.825,
+      "class": "watch",
+      "pc": 1.0476890947138904e-84,
+      "sigma_m": 1195.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "65053-38068-20261123T053337",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 38068,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T05:33:37.838Z",
+      "miss_km": 23.492,
+      "rel_speed_kms": 12.989,
+      "class": "watch",
+      "pc": 5.880701639116039e-85,
+      "sigma_m": 1232.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.47
+      }
+    },
+    {
+      "id": "54361-47025-20261122T092006",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 47025,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T09:20:06.320Z",
+      "miss_km": 23.868,
+      "rel_speed_kms": 13.881,
+      "class": "watch",
+      "pc": 3.1731185119276604e-85,
+      "sigma_m": 1253.0,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.51
+      }
+    },
+    {
+      "id": "41877-35646-20261123T142521",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35646,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T14:25:21.120Z",
+      "miss_km": 24.512,
+      "rel_speed_kms": 14.941,
+      "class": "watch",
+      "pc": 2.682566384668987e-85,
+      "sigma_m": 1286.4,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.57
+      }
+    },
+    {
+      "id": "54361-36550-20261121T191554",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 36550,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T19:15:54.480Z",
+      "miss_km": 22.904,
+      "rel_speed_kms": 13.71,
+      "class": "watch",
+      "pc": 2.1242882665915834e-85,
+      "sigma_m": 1200.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.4
+      }
+    },
+    {
+      "id": "51656-43194-20261123T021432",
+      "primary": {
+        "name": "EOS-4",
+        "norad": 51656
+      },
+      "secondary": {
+        "name": "ZHANGHENG 1-01 (CSES-1)",
+        "norad": 43194,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-23T02:14:32.739Z",
+      "miss_km": 22.944,
+      "rel_speed_kms": 14.914,
+      "class": "watch",
+      "pc": 9.921762423986001e-86,
+      "sigma_m": 1197.2,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.34
+      }
+    },
+    {
+      "id": "65053-30432-20261123T112437",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30432,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T11:24:37.894Z",
+      "miss_km": 23.613,
+      "rel_speed_kms": 10.403,
+      "class": "watch",
+      "pc": 3.5666916695803965e-86,
+      "sigma_m": 1229.8,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.46
+      }
+    },
+    {
+      "id": "65053-33966-20261121T224956",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 33966,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T22:49:56.762Z",
+      "miss_km": 23.062,
+      "rel_speed_kms": 12.015,
+      "class": "watch",
+      "pc": 2.921725594524161e-87,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "41877-41335-20261121T225625",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "SENTINEL-3A",
+        "norad": 41335,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-21T22:56:25.610Z",
+      "miss_km": 22.828,
+      "rel_speed_kms": 0.897,
+      "class": "watch",
+      "pc": 1.5522380781806883e-87,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "54361-34985-20261122T160657",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34985,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T16:06:57.976Z",
+      "miss_km": 23.242,
+      "rel_speed_kms": 14.555,
+      "class": "watch",
+      "pc": 1.8416124433330952e-88,
+      "sigma_m": 1195.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "54361-35033-20261123T172456",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 35033,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T17:24:56.099Z",
+      "miss_km": 24.854,
+      "rel_speed_kms": 14.947,
+      "class": "watch",
+      "pc": 6.903283603707679e-89,
+      "sigma_m": 1275.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.55
+      }
+    },
+    {
+      "id": "41877-37849-20261121T235240",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "SUOMI NPP",
+        "norad": 37849,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-21T23:52:40.441Z",
+      "miss_km": 23.137,
+      "rel_speed_kms": 13.422,
+      "class": "watch",
+      "pc": 9.263258875889647e-90,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "54361-34985-20261122T165645",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "IRIDIUM 33 DEB",
+        "norad": 34985,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T16:56:45.082Z",
+      "miss_km": 23.428,
+      "rel_speed_kms": 14.521,
+      "class": "watch",
+      "pc": 8.75149528704157e-90,
+      "sigma_m": 1195.5,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "65053-30445-20261123T093928",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30445,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T09:39:28.025Z",
+      "miss_km": 24.16,
+      "rel_speed_kms": 14.177,
+      "class": "watch",
+      "pc": 2.7527541348286345e-90,
+      "sigma_m": 1227.1,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "54361-36036-20261124T075201",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "SMOS",
+        "norad": 36036,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-24T07:52:01.625Z",
+      "miss_km": 24.054,
+      "rel_speed_kms": 10.369,
+      "class": "watch",
+      "pc": 1.496223695129641e-92,
+      "sigma_m": 1204.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.41
+      }
+    },
+    {
+      "id": "41877-30063-20261123T011026",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 30063,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T01:10:26.444Z",
+      "miss_km": 24.911,
+      "rel_speed_kms": 11.462,
+      "class": "watch",
+      "pc": 1.5266335997494093e-93,
+      "sigma_m": 1243.7,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.49
+      }
+    },
+    {
+      "id": "54361-33789-20261121T224534",
+      "primary": {
+        "name": "EOS-6 (OCEANSAT-3)",
+        "norad": 54361
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33789,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T22:45:34.171Z",
+      "miss_km": 24.796,
+      "rel_speed_kms": 14.793,
+      "class": "watch",
+      "pc": 2.4733293607486413e-95,
+      "sigma_m": 1225.3,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "41877-44387-20261123T230713",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "METEOR-M2 2",
+        "norad": 44387,
+        "kind": "payload"
+      },
+      "tca_utc": "2026-11-23T23:07:13.065Z",
+      "miss_km": 24.628,
+      "rel_speed_kms": 9.662,
+      "class": "watch",
+      "pc": 4.049972438407941e-96,
+      "sigma_m": 1208.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 2.0
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.42
+      }
+    },
+    {
+      "id": "65053-29871-20261122T151940",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29871,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T15:19:40.966Z",
+      "miss_km": 24.964,
+      "rel_speed_kms": 14.295,
+      "class": "watch",
+      "pc": 3.78810178755032e-96,
+      "sigma_m": 1226.0,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.45
+      }
+    },
+    {
+      "id": "65053-34990-20261123T041853",
+      "primary": {
+        "name": "NISAR",
+        "norad": 65053
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 34990,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-23T04:18:53.405Z",
+      "miss_km": 24.317,
+      "rel_speed_kms": 14.931,
+      "class": "watch",
+      "pc": 2.494521486353465e-96,
+      "sigma_m": 1192.9,
+      "radii_m": {
+        "primary": 3.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.39,
+        "secondary": 0.36
+      }
+    },
+    {
+      "id": "41877-29780-20261121T175736",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29780,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T17:57:36.111Z",
+      "miss_km": 24.306,
+      "rel_speed_kms": 13.204,
+      "class": "watch",
+      "pc": 7.548796888061254e-99,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "41877-29780-20261121T193853",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "FENGYUN 1C DEB",
+        "norad": 29780,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-21T19:38:53.872Z",
+      "miss_km": 24.339,
+      "rel_speed_kms": 13.204,
+      "class": "watch",
+      "pc": 4.229258364922393e-99,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.35
+      }
+    },
+    {
+      "id": "41877-33892-20261122T054717",
+      "primary": {
+        "name": "RESOURCESAT-2A",
+        "norad": 41877
+      },
+      "secondary": {
+        "name": "COSMOS 2251 DEB",
+        "norad": 33892,
+        "kind": "debris"
+      },
+      "tca_utc": "2026-11-22T05:47:17.647Z",
+      "miss_km": 24.825,
+      "rel_speed_kms": 14.522,
+      "class": "watch",
+      "pc": 7.703035575618304e-103,
+      "sigma_m": 1177.8,
+      "radii_m": {
+        "primary": 2.0,
+        "secondary": 0.5
+      },
+      "element_age_days": {
+        "primary": 0.36,
+        "secondary": 0.32
+      }
+    }
+  ]
+}
