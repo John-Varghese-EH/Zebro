@@ -64,11 +64,11 @@ export const TopBar: React.FC = () => {
         <div className="flex items-center gap-2.5 shrink-0">
           <Link
             to="/"
-            className="flex items-center gap-2 group font-semibold text-chalk hover:text-sky transition-colors"
+            className="flex items-center gap-2 group font-semibold text-chalk hover:text-white transition-colors"
           >
-            <span className="w-2.5 h-2.5 rounded-full bg-saffron ring-4 ring-saffron/20 shrink-0" />
+            <img src="/logo.png" alt="Zebro Logo" className="w-5 h-5 rounded-md object-contain shrink-0 shadow-sm" />
             <span className="font-condensed text-sm sm:text-base tracking-wider uppercase font-bold text-chalk">
-              ZEBRO
+              Zebro
             </span>
           </Link>
           <span className="text-white/20 hidden xl:inline">/</span>

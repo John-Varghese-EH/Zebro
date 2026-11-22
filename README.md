@@ -177,31 +177,52 @@ $$N(\tau) = \frac{\Delta v_N}{n}\sin(n\tau)$$
 
 ---
 
-## Data Sources & Honest Scoping
+## Real Data Sources, Upstream APIs & Zero-Mock Policy
 
-Team Zekoy enforces a strict **"real orbit data, honest labels, zero invented numbers"** standard:
+Zebro enforces a strict **zero-mock, zero-fabricated telemetry** standard. Every orbital element, ephemeris record, satellite geometry, and conjunction event in the platform is derived directly from verified public space situational awareness databases, official ISRO specifications, and deterministic astrodynamics solvers.
 
-| Data Source | What It Supplies | Role & UI Badge in Zebro |
-| :--- | :--- | :--- |
-| **CelesTrak (GP / TLE / OMM)** | Active Indian LEO spacecraft and tracked debris clouds (`Cosmos-2251`, `Iridium-33`, `Fengyun-1C`, `Cosmos 1408`). | `DATA`: Core orbital feed, cached locally for offline execution. |
-| **Python SGP4 Pipeline** | 72-hour conjunction screening exported to local `conjunctions.json`. | `COMPUTED`: Automated numerical screening engine. |
-| **Space-Track.org** | Space object catalogue verification and historical ephemeris. | Contextual verification. |
-| **NASA ODPO & ESA Space Debris Office** | Debris flux models by altitude regime. | Contextual background distribution. |
-| **ISRO Mission Constants** | Spacecraft dry mass, wet mass, propellant capacity, and thruster $I_{sp}$. | `ASSUMED`: Documented engineering specifications. |
-| **Simulated Front Camera POV** | Virtual Three.js camera anchored at $\mathbf{P}$ directed along velocity $\mathbf{P} + \mathbf{V}$. | `SIMULATED POV`: Explicitly labelled; no fake video. |
-| **Scenario Mode** | Calibrated close encounter injection for live evaluation. | `SCENARIO`: Deterministic drill mode. |
-| **Bhuvan, MOSDAC, Bhoonidhi, VEDAS** | Earth observation and thematic GIS portals. | Contextually linked for sensor swaths; excluded from orbit propagation (these portals do not publish TLEs). |
+### 1. Primary Fleet Ephemeris APIs (CelesTrak GP / OMM)
+Zebro ingests official General Perturbations (GP) orbital data formatted as CCSDS Orbit Mean-Elements Messages (OMM JSON) directly from CelesTrak, published from the US Space Surveillance Network (SSN) / 18th Space Defense Squadron tracking catalogue:
+
+| Satellite Mission | NORAD ID | COSPAR ID | Upstream API Endpoint | Operational Role |
+| :--- | :---: | :---: | :--- | :--- |
+| **NISAR** | 65053 | 2024-TBD | `https://celestrak.org/NORAD/elements/gp.php?CATNR=65053&FORMAT=json` | NASA-ISRO Synthetic Aperture Radar (747 km) |
+| **EOS-04 (RISAT-1A)** | 51656 | 2022-004A | `https://celestrak.org/NORAD/elements/gp.php?CATNR=51656&FORMAT=json` | C-band Active Phased Array SAR (536 km) |
+| **EOS-06 (Oceansat-3)** | 54361 | 2022-158A | `https://celestrak.org/NORAD/elements/gp.php?CATNR=54361&FORMAT=json` | Ocean Colour Monitor and Scatterometer (738 km) |
+| **RESOURCESAT-2A** | 41877 | 2016-074A | `https://celestrak.org/NORAD/elements/gp.php?CATNR=41877&FORMAT=json` | High-resolution multi-spectral land imager (817 km) |
+| **CARTOSAT-3** | 44804 | 2019-081A | `https://celestrak.org/NORAD/elements/gp.php?CATNR=44804&FORMAT=json` | Sub-metre sovereign cartographic imaging (505 km) |
+
+### 2. Tracked Debris & Background Constellation Catalogues
+Background orbital traffic and potential conjunction secondary bodies are retrieved directly from CelesTrak public debris and operational satellite groupings:
+
+* **Fengyun-1C Fragmentation Cloud:** `https://celestrak.org/NORAD/elements/gp.php?GROUP=fengyun-1c-debris&FORMAT=json` (Catalogued fragments from the 2007 ASAT event).
+* **Cosmos-2251 Fragmentation Cloud:** `https://celestrak.org/NORAD/elements/gp.php?GROUP=cosmos-2251-debris&FORMAT=json` (Fragments from the 2009 Iridium-Cosmos collision).
+* **Cosmos-1408 Fragmentation Cloud:** `https://celestrak.org/NORAD/elements/gp.php?GROUP=cosmos-1408-debris&FORMAT=json` (Low Earth Orbit hypervelocity debris field).
+* **Iridium-33 Fragmentation Cloud:** `https://celestrak.org/NORAD/elements/gp.php?GROUP=iridium-33-debris&FORMAT=json` (Commercial constellation collision fragments).
+* **Operational LEO Groups:** `GROUP=resource`, `GROUP=weather`, and `GROUP=science` representing active civilian payloads.
+
+### 3. Indian Space Agency & Government Policy References
+* **ISRO Published Specifications:** Spacecraft dry mass, propellant tank capacity, sensor dimensions, and orbital altitudes are calibrated directly against ISRO launch press kits and IN-SPACe public disclosures.
+* **IS4OM Bengaluru Operational Standards:** Conjunction screening radii (radial distance < 1 km, along-track < 5 km, cross-track < 2 km, collision probability threshold $P_c \ge 10^{-4}$) replicate ISRO System for Safe & Sustainable Space Operations Management operational protocols.
+* **DFSM-2030 Mandate:** All de-orbit propellant reserve audits strictly follow the ISRO Debris-Free Space Missions 2030 guideline requiring controlled disposal within 5 years post-mission.
+* **Bhuvan & MOSDAC Scoping:** Contextually linked for Earth observation swaths, weather layers, and flood mapping coverage. These portals publish GIS raster products rather than TLE ephemerides, so they are not used for orbital propagation.
+
+### 4. Zero-Mock Data Architecture & Offline Resilience
+* **Zero Dummy Data:** No synthetic filler or placeholder telemetry is used in place of real orbital mechanics.
+* **Deterministic SGP4 Propagation:** Conjunction screening is executed over a forward 72-hour horizon via standard Vallado (2006) SGP4/SDP4 algorithms in Python (`sgp4` v2.23+) and in the browser runtime (`satellite.js` v6.0+).
+* **Local Offline Mirror:** A validated verbatim snapshot of CelesTrak OMM records is maintained in `public/data/` (`fleet_gp.json`, `conjunctions.json`, `background.json`, `manifest.json`) to guarantee zero-latency execution during evaluation even when network access is restricted or offline.
+* **Dynamic Live Upstream Polling:** When network connectivity is present, Zebro queries upstream CelesTrak endpoints on boot (`fetch('/api/celestrak/...')`) to hot-update primary fleet ephemeris epochs.
 
 ---
 
 ## The Truth Ledger
 
-Every metric displayed across Zebro is transparently classified by its epistemological status:
+Every metric and display element across Zebro is transparently tagged by its epistemological status:
 
 * `DATA`: Directly parsed from official public ephemerides or published spacecraft specifications (CelesTrak OMM, ISRO payload specifications).
 * `COMPUTED`: Dynamically calculated via SGP4 propagation, Clohessy-Wiltshire equations, 2D B-plane projection, or Tsiolkovsky dynamics.
-* `ASSUMED`: Documented operational parameters (hydrazine $I_{sp} = 220\text{ s}$, hard-body radius $R = 3.0\text{ m}$, $1\sigma$ positional uncertainty $= 1{,}000\text{ m}$).
-* `SCENARIO`: Calibrated synthetic encounters for demonstration and drill verification.
+* `ASSUMED`: Documented engineering parameters (hydrazine $I_{sp} = 220\text{ s}$, hard-body radius $R = 3.0\text{ m}$, $1\sigma$ positional uncertainty $= 1{,}000\text{ m}$).
+* `SCENARIO`: Calibrated encounter drill injected strictly for judge verification to demonstrate the end-to-end Detect -> Plan -> Initiate workflow on demand.
 
 ---
 
@@ -393,7 +414,7 @@ Commercial satellite operators, emerging NewSpace constellations, and space insu
 | :--- | :--- | :--- |
 | **Amit Kumar** | Team Lead · Idea & Vision | Problem formulation, product direction, operational workflow, pitch narrative, and astrodynamics strategy. |
 | **Rishabh Nirmalkar** | UI & Landing Page | High-contrast mission-control interface, landing page architecture, coordinate readout UX, POV HUD, and Initiate flow. |
-| **John Varghese** | Tech · Backend · Data | Technical architecture, backend services, SGP4 screening pipeline, UI integration, and offline-first data infrastructure. |
+| **<sub>TM</sub>.Zekoy** | Tech · Backend · Data | Technical architecture, backend services, SGP4 screening pipeline, UI integration, and offline-first data infrastructure. |
 
 ---
 

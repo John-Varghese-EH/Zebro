@@ -68,8 +68,8 @@ export const Analytics: React.FC = () => {
         {/* Navigation & Header */}
         <header className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-rule gap-4 no-print">
           <div>
-            <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-saffron ring-4 ring-saffron/20" />
+            <div className="flex items-center gap-2.5">
+              <img src="/logo.png" alt="Zebro Logo" className="w-6 h-6 rounded-md object-contain shrink-0 shadow-sm" />
               <h1 className="font-condensed font-bold text-2xl uppercase tracking-wider text-ink">
                 Zebro | Fleet Mission Report
               </h1>

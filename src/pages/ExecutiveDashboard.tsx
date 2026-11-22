@@ -84,7 +84,7 @@ export const ExecutiveDashboard: React.FC = () => {
       <header className="sticky top-0 z-30 flex h-14 items-center justify-between border-b border-white/10 bg-black/85 px-6 backdrop-blur-xl">
         <div className="flex items-center gap-3">
           <Link to="/" className="flex items-center gap-2.5">
-            <span className="w-2.5 h-2.5 rounded-full bg-saffron ring-4 ring-saffron/20" />
+            <img src="/logo.png" alt="Zebro Logo" className="w-5 h-5 rounded-md object-contain shrink-0 shadow-sm" />
             <span className="font-condensed text-base font-bold uppercase tracking-wider text-chalk">
               Zebro
             </span>
