@@ -226,9 +226,8 @@ Zebro tags every data item and calculation with complete honesty:
 
 ### 1. Clone & Install Frontend
 ```bash
-git clone https://github.com/your-org/Zebro-Astra26-Zekoy.git
-cd Zebro-Astra26-Zekoy
-
+git clone https://github.com/John-Varghese-EH/Zebro.git
+cd Zebro
 # Install dependencies
 pnpm install
 ```
@@ -315,7 +314,7 @@ Yes. Zebro includes pre-screened CelesTrak ephemeris snapshots in `public/data/`
 
 | Team Member | Role | Technical Contribution |
 | :--- | :--- | :--- |
-| **John Varghese (J0X)** | **Lead Architect** · Full-Stack Dev | **Core Architecture & Implementation:** Author of the real-time Hill-Clohessy-Wiltshire (HCW) solver, Vis-Viva controlled de-orbit engine, Tsiolkovsky propellant budget analyzer, SGP4 client-side propagation pipeline, 72-hour vectorized conjunction screening engine with range-rate zero-crossing detection (`screen.py`), Three.js 3D globe and spacecraft POV HUD, D3 ground track cartography, and the DFSM-2030 compliance verification framework. |
+| **John Varghese (J0X)** | **Lead Architect** · Full-Stack Dev | **Core Architecture & Implementation:** real-time Hill-Clohessy-Wiltshire (HCW) solver, Vis-Viva controlled de-orbit engine, Tsiolkovsky propellant budget analyzer, SGP4 client-side propagation pipeline, 72-hour vectorized conjunction screening engine with range-rate zero-crossing detection (`screen.py`), Three.js 3D globe and spacecraft POV HUD, D3 ground track cartography, and the DFSM-2030 compliance verification framework. |
 | **Amit Kumar** | Strategy & Pitch Lead | Problem formulation, mission requirements, presentation narrative, and operational workflow. |
 | **Rishabh Nirmalkar** | UI & Product Design | Mission console interface, telemetry HUD layout, typography, and Initiate user flow. |
 
