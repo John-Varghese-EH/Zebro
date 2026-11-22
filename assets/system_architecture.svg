@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 340" width="100%" height="100%">
+  <defs>
+    <radialGradient id="archBg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </radialGradient>
+    <linearGradient id="pipeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1100" height="340" rx="16" fill="url(#archBg)" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Title -->
+  <g transform="translate(50, 40)">
+    <text x="0" y="0" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700">Zebro Coordinate-Driven Architecture Pipeline</text>
+    <text x="0" y="22" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Numbers-First Astrodynamics: Real Telemetry IN -> Deterministic Astrodynamics DECIDE -> Real-Time 3D OUT</text>
+  </g>
+
+  <!-- Step 1: IN (Data Ingestion) -->
+  <g transform="translate(50, 95)">
+    <rect x="0" y="0" width="290" height="195" rx="10" fill="#0B132B" stroke="#334155" stroke-width="1" />
+    <rect x="15" y="15" width="60" height="20" rx="4" fill="#1E293B" />
+    <text x="25" y="29" fill="#38BDF8" font-family="monospace" font-size="10" font-weight="700">01. IN</text>
+    <text x="85" y="29" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Telemetry Feeds</text>
+
+    <!-- Content Items -->
+    <g transform="translate(15, 55)" font-family="monospace" font-size="11" fill="#CBD5E1">
+      <text x="0" y="0">• CelesTrak OMM/GP JSON</text>
+      <text x="0" y="22">• ISRO LEO Fleet Elements</text>
+      <text x="0" y="44">• 4 Hypervelocity Debris Swarms</text>
+      <text x="0" y="66">• Published Dry/Wet Mass</text>
+      <text x="0" y="88">• Zero Mock / Filler Data</text>
+      <text x="0" y="115" fill="#38BDF8" font-weight="700">Python: fetch_gp.py</text>
+    </g>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <g transform="translate(355, 180)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="url(#pipeGrad)" stroke-width="2.5" />
+    <polygon points="35,0 27,-4 27,4" fill="#818CF8" />
+  </g>
+
+  <!-- Step 2: DECIDE (Core Astrodynamics Engine) -->
+  <g transform="translate(400, 95)">
+    <rect x="0" y="0" width="310" height="195" rx="10" fill="#0B132B" stroke="#818CF8" stroke-width="1.2" />
+    <rect x="15" y="15" width="85" height="20" rx="4" fill="#312E81" />
+    <text x="23" y="29" fill="#A5B4FC" font-family="monospace" font-size="10" font-weight="700">02. DECIDE</text>
+    <text x="110" y="29" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Physics &amp; Planning</text>
+
+    <!-- Content Items -->
+    <g transform="translate(15, 55)" font-family="monospace" font-size="11" fill="#CBD5E1">
+      <text x="0" y="0">• Vectorized 72h SGP4 Screen</text>
+      <text x="0" y="22">• Range-Rate Zero Crossing</text>
+      <text x="0" y="44">• Brent's TCA Minimizer (SciPy)</text>
+      <text x="0" y="66">• Hill-Clohessy-Wiltshire (RTN)</text>
+      <text x="0" y="88">• DFSM-2030 Hohmann De-Orbit</text>
+      <text x="0" y="115" fill="#818CF8" font-weight="700">screen.py + orbitalMath.ts</text>
+    </g>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <g transform="translate(725, 180)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="url(#pipeGrad)" stroke-width="2.5" />
+    <polygon points="35,0 27,-4 27,4" fill="#10B981" />
+  </g>
+
+  <!-- Step 3: OUT (Actionable 3D Execution) -->
+  <g transform="translate(770, 95)">
+    <rect x="0" y="0" width="280" height="195" rx="10" fill="#0B132B" stroke="#10B981" stroke-width="1.2" />
+    <rect x="15" y="15" width="70" height="20" rx="4" fill="#064E3B" />
+    <text x="25" y="29" fill="#6EE7B7" font-family="monospace" font-size="10" font-weight="700">03. OUT</text>
+    <text x="95" y="29" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">3D Operations</text>
+
+    <!-- Content Items -->
+    <g transform="translate(15, 55)" font-family="monospace" font-size="11" fill="#CBD5E1">
+      <text x="0" y="0">• Three.js 3D Orbital Canvas</text>
+      <text x="0" y="22">• Simulated Front-POV HUD</text>
+      <text x="0" y="44">• D3 Ground Track + ISTRAC</text>
+      <text x="0" y="66">• One-Click Avoidance Burn</text>
+      <text x="0" y="88">• DFSM Compliance Badge</text>
+      <text x="0" y="115" fill="#10B981" font-weight="700">React + Three.js + Zustand</text>
+    </g>
+  </g>
+</svg>
