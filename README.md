@@ -9,10 +9,15 @@
     <img src="https://img.shields.io/badge/Astra%202026-VIT%20Bhopal%20University-blue?style=flat-square" alt="Astra 2026" />
     <img src="https://img.shields.io/badge/Track-PS--06%20Sustainable%20Space-111827?style=flat-square" alt="Track PS-06" />
     <img src="https://img.shields.io/badge/Team-Zekoy%20(T28)-0F172A?style=flat-square" alt="Team Zekoy" />
+    <img src="https://img.shields.io/badge/Lead%20Architect-John%20Varghese%20(J0X)-0F172A?style=flat-square" alt="Lead Architect" />
     <img src="https://img.shields.io/badge/Vitest-17%2F17%20Passed-10B981?style=flat-square" alt="Vitest Tests" />
     <img src="https://img.shields.io/badge/Pytest-3%2F3%20Passed-10B981?style=flat-square" alt="Pytest Tests" />
     <img src="https://img.shields.io/badge/Data-Zero%20Mock%20%7C%20CelesTrak%20SGP4-16A34A?style=flat-square" alt="Real Data" />
     <img src="https://img.shields.io/badge/Policy-ISRO%20DFSM--2030-F59E0B?style=flat-square" alt="DFSM 2030" />
+  </p>
+
+  <p>
+    <img src="assets/hero_banner.svg" width="100%" alt="Zebro Autonomous Orbital Traffic Control & Fuel-Optimal Collision Avoidance" />
   </p>
 </div>
 
@@ -66,6 +71,10 @@ If you are evaluating Zebro for Astra 2026, follow this exact 3-minute sequence:
 ---
 
 ## How Python & TypeScript Are Actually Used
+
+<div align="center">
+  <img src="assets/system_architecture.svg" width="100%" alt="Zebro Coordinate-Driven Architecture Pipeline" />
+</div>
 
 We believe in complete transparency. Here is the exact role of Python and TypeScript in this repository:
 
@@ -137,6 +146,10 @@ Zebro monitors five flagship Indian Low Earth Orbit missions:
 ---
 
 ## Astrodynamics & Mathematical Foundations
+
+<div align="center">
+  <img src="assets/hcw_relative_drift.svg" width="100%" alt="Clohessy-Wiltshire (Hill) Relative-Motion Optimization" />
+</div>
 
 ### 1. 72-Hour SGP4 Conjunction Screening
 Two-Line Elements are propagated across a 72-hour window. A close-approach candidate is flagged when the relative range-rate dot product changes sign from negative to positive:
@@ -377,9 +390,9 @@ No. Live video streaming from operational Earth observation satellites is not pu
 
 | Team Member | Role | Technical Contribution |
 | :--- | :--- | :--- |
-| **Amit Kumar** | Team Lead · Strategy & Pitch | Problem formulation, mission requirements, presentation narrative, and operational workflow. |
+| **John Varghese (J0X)**<br /><sub>TM</sub>.Zekoy | **Lead Architect** · Astrodynamics & Full-Stack Lead | **Core Architecture & Implementation:** Author of the real-time Hill-Clohessy-Wiltshire (HCW) solver, Vis-Viva controlled de-orbit engine, Tsiolkovsky propellant budget analyzer, SGP4 client-side propagation pipeline, 72-hour vectorized conjunction screening engine with range-rate zero-crossing detection (`screen.py`), Three.js 3D globe and spacecraft POV HUD, D3 ground track cartography, and the DFSM-2030 compliance verification framework. |
+| **Amit Kumar** | Strategy & Pitch Lead | Problem formulation, mission requirements, presentation narrative, and operational workflow. |
 | **Rishabh Nirmalkar** | UI & Product Design | Mission console interface, telemetry HUD layout, typography, and Initiate user flow. |
-| **<sub>TM</sub>.Zekoy** | Core Architecture · Engineering & Data | Real-time astrodynamics engines, SGP4 screening pipeline, Three.js 3D globe, and DFSM-2030 audit framework. |
 
 ---
 
