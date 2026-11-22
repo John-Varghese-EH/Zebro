@@ -9,7 +9,6 @@
     <img src="https://img.shields.io/badge/Astra%202026-VIT%20Bhopal%20University-blue?style=flat-square" alt="Astra 2026" />
     <img src="https://img.shields.io/badge/Track-PS--06%20Sustainable%20Space-111827?style=flat-square" alt="Track PS-06" />
     <img src="https://img.shields.io/badge/Team-Zekoy%20(T28)-0F172A?style=flat-square" alt="Team Zekoy" />
-    <img src="https://img.shields.io/badge/Lead%20Architect-John%20Varghese%20(J0X)-0F172A?style=flat-square" alt="Lead Architect" />
     <img src="https://img.shields.io/badge/Vitest-17%2F17%20Passed-10B981?style=flat-square" alt="Vitest Tests" />
     <img src="https://img.shields.io/badge/Pytest-3%2F3%20Passed-10B981?style=flat-square" alt="Pytest Tests" />
     <img src="https://img.shields.io/badge/Data-Zero%20Mock%20%7C%20CelesTrak%20SGP4-16A34A?style=flat-square" alt="Real Data" />
@@ -221,54 +220,6 @@ Zebro tags every data item and calculation with complete honesty:
 
 ---
 
-## Directory Structure
-
-```text
-Zebro-Astra26-Zekoy/
-├── data/                          # Raw cached OMM JSON feeds from CelesTrak
-├── public/
-│   ├── logo.png                   # Official Zebro platform logo
-│   ├── data/                      # Validated operational data files
-│   │   ├── conjunctions.json      # Pre-screened conjunction events (offline-ready)
-│   │   ├── fleet_gp.json          # Primary Indian fleet ephemeris states
-│   │   ├── background.json        # 2,000 background debris and payload states
-│   │   └── manifest.json          # Pipeline run metadata and epochs
-│   └── textures/                  # NASA Blue Marble 2K day & night city light textures
-├── scripts/                       # Python data & screening pipeline
-│   ├── fetch_gp.py                # OMM ingestion from CelesTrak with rate limiting
-│   ├── screen.py                  # 72-hour vectorized conjunction screening engine
-│   ├── test_screen.py             # Pytest verification suite (3 tests)
-│   └── generate_textures.py       # Offline texture generator
-├── src/
-│   ├── config/assumptions.ts      # Physical constants and mission parameters
-│   ├── engine/                    # Core astrodynamics mathematics
-│   │   ├── orbitalMath.ts         # HCW equations, Pc, Tsiolkovsky rocket equation
-│   │   ├── planner.ts             # Avoidance manoeuvre optimization engine
-│   │   ├── dfsm.ts                # DFSM-2030 de-orbit delta-v evaluation
-│   │   ├── scenario.ts            # Calibrated encounter generator for drills
-│   │   ├── kessler.ts             # Fragmentation dispersion model
-│   │   └── __tests__/             # Vitest test suite (17 tests)
-│   ├── store/useMission.ts        # Zustand global mission state
-│   ├── geo/india.ts               # Indian territorial boundary coordinates & ray-casting
-│   ├── components/
-│   │   ├── globe/                 # Three.js 3D Earth, orbits, and satellite POV
-│   │   │   ├── HeroEarthCanvas.tsx # Interactive 3D Earth model
-│   │   │   ├── Globe.tsx          # Full 3D orbital globe
-│   │   │   └── Orbits.tsx         # SGP4 orbit line renderer
-│   │   ├── hud/                   # Flight console TopBar, AlertList, Planner, DfsmBadge
-│   │   ├── glass/                 # Translucent liquid glass surfaces
-│   │   └── map/                   # D3.js 2D ground track with ground station visibility
-│   └── pages/
-│       ├── Landing.tsx            # Minimalist non-scrolling landing page
-│       ├── Dashboard.tsx          # Real-time 3D flight operations console
-│       ├── ExecutiveDashboard.tsx # High-level fleet overview & DFSM audit
-│       └── Analytics.tsx          # Mission ledger with JSON/CSV export
-├── package.json
-└── vite.config.ts
-```
-
----
-
 ## Running the Code Locally
 
 ### Prerequisites
@@ -338,24 +289,6 @@ Executes `tsc -b && vite build` and generates an optimized production bundle in 
 
 ---
 
-## Keyboard Shortcuts
-
-During real-time console operation, Zebro supports one-key tactical commands:
-
-| Key | Function |
-| :---: | :--- |
-| `Space` | Toggle simulation clock (Play / Pause) |
-| `1` - `4` | Warp simulation speed (1x, 10x, 100x, 500x) |
-| `5` | Freeze simulation clock (0x) |
-| `[` / `]` | Step to previous / next conjunction event |
-| `G` | Switch to 3D Inertial Globe view |
-| `M` | Switch to Split 2D Ground Track view |
-| `A` | Toggle tactical audio audio feedback |
-| `?` | Open keyboard shortcuts modal |
-| `Esc` | Close any active dialog or modal overlay |
-
----
-
 ## Technical FAQ
 
 <details>
@@ -374,12 +307,6 @@ Before flight operators execute an avoidance burn, Zebro uses the Vis-Viva equat
 <summary><strong>3. Can Zebro run without an active internet connection?</strong></summary>
 
 Yes. Zebro includes pre-screened CelesTrak ephemeris snapshots in `public/data/`. All 3D rendering, SGP4 propagation, HCW calculations, and DFSM audits run 100% locally in the browser runtime. An internet connection is only required if you explicitly choose to fetch updated orbital elements from CelesTrak.
-</details>
-
-<details>
-<summary><strong>4. Is the satellite front-camera feed real live video?</strong></summary>
-
-No. Live video streaming from operational Earth observation satellites is not publicly broadcast. In Zebro, orbital positions and velocities are derived from real TLE data, while the front-facing POV camera is rendered in Three.js directly at position $\mathbf{P}$ oriented along velocity $\mathbf{P} + \mathbf{V}$ and is clearly labelled **SIMULATED POV**.
 </details>
 
 ---
