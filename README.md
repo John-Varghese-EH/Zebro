@@ -32,23 +32,21 @@
 
 ## Quick Navigation
 
-- [Judge Quick-Start : 3-Minute Walkthrough](#judge-quick-start--3-minute-walkthrough)
+- [Quick-Start : 3-Minute Walkthrough](#judge-quick-start--3-minute-walkthrough)
 - [How Python & TypeScript Are Actually Used](#how-python--typescript-are-actually-used)
 - [Real Data Sources & Zero-Mock Policy](#real-data-sources--zero-mock-policy)
 - [Indian Primary Fleet Coverage](#indian-primary-fleet-coverage)
 - [Astrodynamics & Mathematical Foundations](#astrodynamics--mathematical-foundations)
 - [DFSM-2030 De-Orbit Reserve Audit](#dfsm-2030-de-orbit-reserve-audit)
 - [The Truth Ledger](#the-truth-ledger)
-- [Directory Structure](#directory-structure)
 - [Running the Code Locally](#running-the-code-locally)
 - [Automated Test Suites](#automated-test-suites)
-- [Keyboard Shortcuts](#keyboard-shortcuts)
 - [Technical FAQ](#technical-faq)
 - [Team Zekoy](#team-zekoy)
 
 ---
 
-## Judge Quick-Start : 3-Minute Walkthrough
+## Quick-Start : 3-Minute Walkthrough
 
 If you are evaluating Zebro for Astra 2026, follow this exact 3-minute sequence:
 
